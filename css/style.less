@@ -1,0 +1,40 @@
+/**
+ * User: Marc Edouard Raffalli
+ * Date: 27/03/14
+ * Time: 18:43
+ * Website: http://raffalli-marc-ed.com/
+ */
+//======================================================================
+
+body {
+  background-color: #EFEFEF;
+}
+
+.mr {
+  &-topNav {
+    &Logo {
+      margin: 0 15px;
+      width: 60px;
+      background: url("images/logo.png") no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  &-page {
+    &Body {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow-y: auto;
+
+      color: #cccccc;
+
+      padding-top: 70px;
+
+      background: url("images/texture-grey.png");
+      box-shadow: 0 0 15px 5px #808080;
+    }
+  }
+}
