@@ -9,6 +9,7 @@ require.config({
     name: 'main',
     baseUrl: 'js/geoapp/',
     paths: {
+        // "moduleName" : "path/to/module/js/file/without/extension"
         // Vendors
         'jquery': '../../vendor/jquery/jquery.min',
         'underscore': '../../vendor/underscore/underscore.min',
@@ -18,8 +19,7 @@ require.config({
         'backbone.babysitter': '../../vendor/marionette/backbone.babysitter.min',
         'marionette': '../../vendor/marionette/backbone.marionette.min',
         //App
-        'GeoApp': './GeoApp',
-        'data': '../../data/'
+        'GeoApp': './GeoApp'
     },
     shim: {
         'jquery': {
@@ -40,8 +40,8 @@ require.config({
 });
 /* global define */
 define([
-    'GeoApp'
-], function(geoAppInstance) {
+    'GeoApp'                    // get GeoApp, it is defined above in the paths
+], function(geoAppInstance) {   // load the application object
     'use strict';
-    geoAppInstance.start();
+    geoAppInstance.start();     // start the application
 });
