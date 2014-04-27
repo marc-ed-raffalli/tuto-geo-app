@@ -9,6 +9,7 @@ require.config({
     name: 'main',
     baseUrl: 'js/geoapp/',
     paths: {
+        // "moduleName" : "path/to/module/js/file/without/extension"
         // Vendors
         'jquery': '../../vendor/jquery/jquery.min',
         'underscore': '../../vendor/underscore/underscore.min',
@@ -39,7 +40,7 @@ require.config({
 });
 /* global define */
 define([
-    'GeoApp'
+    'GeoApp'                    // get GeoApp, it is defined above in the paths
 ], function(geoAppInstance) {   // load the application object
     'use strict';
     geoAppInstance.start();     // start the application
