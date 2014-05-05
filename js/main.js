@@ -18,6 +18,7 @@ require.config({
         'backbone.wreqr': '../../vendor/marionette/backbone.wreqr.min',
         'backbone.babysitter': '../../vendor/marionette/backbone.babysitter.min',
         'marionette': '../../vendor/marionette/backbone.marionette.min',
+        'handlebars.runtime': '../../vendor/handlebars/handlebars.runtime.amd.min',
         //App
         'GeoApp': './GeoApp'
     },

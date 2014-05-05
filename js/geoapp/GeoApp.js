@@ -6,15 +6,14 @@
  */
 /* global define */
 define([
-    'marionette'
-], function (Marionette) {  // getting Marionette dependency
+    'marionette',
+    'compiledTemplates'
+], function (Marionette, templates) {  // getting Marionette dependency
     'use strict';
 
     var geoApp = new Marionette.Application(),      // instantiate new Marionette application
         DummyView = Marionette.ItemView.extend({    // extend ItemView to add customized content
-            template: function () {                 // template will provide the view with content
-                return 'Congratulation !!! the application has started';
-            }
+            template: templates['_geoAppLayout.hbs']     // template will provide the view with content
         });
 
     // define the application container, refers here to the #appContainer in index.html
