@@ -1,7 +1,7 @@
 /**
  * User: Marc Edouard Raffalli
  * Date: 27/03/14
- * Time: 18:43
+ * Time: 18:21
  * Website: http://raffalli-marc-ed.com/
  */
 /* global require */
@@ -20,7 +20,9 @@ require.config({
         'marionette': '../../vendor/marionette/backbone.marionette.min',
         'handlebars.runtime': '../../vendor/handlebars/handlebars.runtime.amd.min',
         //App
-        'GeoApp': './GeoApp'
+        'GeoApp': './GeoApp',
+        'templates': './templates',// added to ease the access to templates
+        'view': './view'// added to ease the access to views
     },
     shim: {
         'jquery': {
@@ -42,7 +44,7 @@ require.config({
 /* global define */
 define([
     'GeoApp'                    // get GeoApp, it is defined above in the paths
-], function(geoAppInstance) {   // load the application object
+], function (geoAppInstance) {   // load the application object
     'use strict';
     geoAppInstance.start();     // start the application
 });

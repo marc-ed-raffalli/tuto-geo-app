@@ -6,6 +6,10 @@
  */
 //======================================================================
 
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
 body {
   background-color: #EFEFEF;
 }
@@ -29,12 +33,35 @@ body {
       bottom: 0;
       overflow-y: auto;
 
-      color: #cccccc;
-
       padding-top: 70px;
 
       background: url("images/texture-grey.png");
       box-shadow: 0 0 15px 5px #808080;
+    }
+  }
+  &-geoappSide {
+    &-playerScore {
+      .label {
+        font-size: 2.6rem;
+        white-space: normal;
+        overflow-wrap: break-word;
+      }
+
+      @media (min-width: @screen-md-min) {
+        .label {
+          margin-bottom: 8px;
+          font-size: 1.6rem;
+        }
+
+        .label:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-countryInfo {
+      .lead {
+        margin-bottom: 6px;
+      }
     }
   }
 }

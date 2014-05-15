@@ -1,0 +1,16 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">More Info</h3>
+    </div>
+    <div class="mr-geoappSide-countryInfo panel-body">
+        {{#if city}}<div class="lead text-center">{{city}}</div>{{/if}}
+        {{#if lang}}<em>{{lang}}</em>{{/if}}
+        <div class="row">
+                {{#if surface}}<span class="col-lg-12 col-md-12 col-sm-6"><small><abbr title="Surface area">A</abbr>:</small> {{surface}}</span>{{/if}}
+            {{#if currency}}<span class="col-lg-12 col-md-12 col-sm-6"><small><abbr title="Currency">Cur</abbr>:</small> {{currency}}</span>{{/if}}
+        </div>
+        <div class="row">
+            {{#if pop}}<span class="col-lg-12 col-md-12"><small><abbr title="Population">Pop</abbr>:</small> {{pop}}</span>{{/if}}
+        </div>
+    </div>
+</div>
