@@ -13,11 +13,23 @@ define([
 
     return Marionette.ItemView.extend({
 
+        className:'mr-geoapp-elt',
+
         // set the template to use in this view, file name is used as identifier
         template: template['_mapView.hbs'],
 
+        // Set the ui elements that we will use
+        ui: {
+            map: '.mr-geoappMain-map'
+        },
+
         onRender: function () {
             // The map will be integrated in a later stage
+
+            //mr-geoappMain-map
+        },
+        getMapElement: function () {
+            return this.ui.map;
         }
     });
 });

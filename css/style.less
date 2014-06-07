@@ -11,57 +11,150 @@
 @screen-lg-min: 1200px;
 
 body {
-  background-color: #EFEFEF;
+    background-color: #EFEFEF;
+}
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+  &-thumb {
+    border-radius: 4px;
+    background-color: #efefef;
+  }
 }
 
 .mr {
-  &-topNav {
-    &Logo {
-      margin: 0 15px;
-      width: 60px;
-      background: url("images/logo.png") no-repeat center;
-      background-size: contain;
+    &-topNav {
+        &Logo {
+            margin: 0 15px;
+            width: 60px;
+            background: url("images/logo.png") no-repeat center;
+            background-size: contain;
+        }
     }
-  }
 
-  &-page {
-    &Body {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      overflow-y: auto;
+    &-page {
+        &Body {
+            position: absolute;
+            top: 51px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
 
-      padding-top: 70px;
+            padding-top: 20px;
 
-      background: url("images/texture-grey.png");
-      box-shadow: 0 0 15px 5px #808080;
+            background: url("images/texture-grey.png");
+            box-shadow: 0 0 15px 5px #808080;
+        }
     }
-  }
-  &-geoappSide {
-    &-playerScore {
-      .label {
-        font-size: 2.6rem;
-        white-space: normal;
-        overflow-wrap: break-word;
-      }
+    &-geoapp {
 
-      @media (min-width: @screen-md-min) {
-        .label {
-          margin-bottom: 8px;
-          font-size: 1.6rem;
+        &,
+        &-elt,
+        &Main,
+        &Side {
+            position: relative;
+            height: 100%;
         }
 
-        .label:last-of-type {
-          margin-bottom: 0;
+        &Main {
+            &Holder {
+                height: calc(~'100% - 100px');
+                padding: 0 0 15px;
+
+                @media (min-width: @screen-md-min) {
+                    height: 100%;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+
+            &-map {
+                padding: 15px;
+                height: 100%;
+
+                @media (min-width: @screen-md-min) {
+                    height: calc(~'100% - 38px');
+                }
+
+                &Panel {
+                    height: 100%;
+
+                    &-header {
+                        display: none;
+
+                        @media (min-width: @screen-md-min) {
+                            display: block;
+                        }
+                    }
+
+                }
+                &Holder {
+                    //                    height: calc(~'100% - 100px');
+
+                    //                    @media (min-width: @screen-md-min) {
+                    height: calc(~'100% - 60px');
+                    //                    }
+                }
+            }
         }
-      }
+        &Side {
+            &Holder {
+                padding: 0 0 15px;
+
+                @media (min-width: @screen-md-min) {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+
+            &-playerScore {
+                &-header {
+                    display: none;
+
+                    @media (min-width: @screen-md-min) {
+                        display: block;
+                    }
+                }
+
+                &-body {
+                    .label {
+                        font-size: 2.6rem;
+                        white-space: normal;
+                        overflow-wrap: break-word;
+                    }
+
+                    @media (min-width: @screen-md-min) {
+                        .label {
+                            margin-bottom: 8px;
+                            font-size: 1.6rem;
+                        }
+
+                        .label:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            &-countryInfo {
+                &-header {
+                    display: none;
+
+                    @media (min-width: @screen-md-min) {
+                        display: block;
+                    }
+                }
+
+                &-body {
+                    .lead {
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+
     }
-    &-countryInfo {
-      .lead {
-        margin-bottom: 6px;
-      }
-    }
-  }
 }

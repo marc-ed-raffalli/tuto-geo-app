@@ -8,12 +8,15 @@
 define([
     'marionette',
     'view/main/CountryNameView',
+    'region/main/MapRegion',
     'view/main/MapView',
     'templates/mainTemplates'
-], function (Marionette, CountryNameView, MapView, template) {
+], function (Marionette, CountryNameView, MapRegion, MapView, template) {
     'use strict';
 
     return Marionette.Layout.extend({
+
+        className:'mr-geoapp-elt',
 
         // set the template to use in this template, file name is used as identifier
         template: template['_mainLayout.hbs'],
@@ -21,7 +24,7 @@ define([
         regions: {
             // split the application screen in two regions, identifier point to the element in template
             countryNameRegion: '.mr-geoappMain-countryNameHolder',
-            mapRegion: '.mr-geoappMain-mapHolder'
+            mapRegion: MapRegion
         },
         onShow: function () {
             // instantiate and show view

@@ -19,10 +19,13 @@ require.config({
         'backbone.babysitter': '../../vendor/marionette/backbone.babysitter.min',
         'marionette': '../../vendor/marionette/backbone.marionette.min',
         'handlebars.runtime': '../../vendor/handlebars/handlebars.runtime.amd.min',
+        'leaflet': '../../vendor/leaflet/js/leaflet',
         //App
         'GeoApp': './GeoApp',
-        'templates': './templates',// added to ease the access to templates
-        'view': './view'// added to ease the access to views
+        'templates': './templates', // added to ease the access to templates folder
+        'view': './view',           // views folder
+        'region': './region',       // regions folder
+        'data': './data'            // data folder
     },
     shim: {
         'jquery': {
@@ -38,6 +41,9 @@ require.config({
         'marionette': {
             deps: ['jquery', 'underscore', 'backbone'],
             exports: 'Backbone.Marionette'
+        },
+        'leaflet': {
+            exports: 'Leaflet'
         }
     }
 });
