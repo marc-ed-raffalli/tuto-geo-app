@@ -13,6 +13,10 @@ define([
 
     return Marionette.ItemView.extend({
 
+        // Backbone automatically wrap the View into a div tag, we need that tag to be position relative and taking full height of its parent.
+        // It is possible to specify the tag name and class name in the View and remove the root element of the template.
+        // However, I don't like to mix markup and styling with logic side of the code.
+        // This css class name only provides the position and height.
         className:'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
@@ -23,11 +27,6 @@ define([
             map: '.mr-geoappMain-map'
         },
 
-        onRender: function () {
-            // The map will be integrated in a later stage
-
-            //mr-geoappMain-map
-        },
         getMapElement: function () {
             return this.ui.map;
         }

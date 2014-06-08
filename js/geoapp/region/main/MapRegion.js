@@ -20,7 +20,6 @@ define([
 
             // view.getMapElement() will return the map element in the template
             // we need to use get(0) because of JQuery, as the element returned is the Jquery wrapped element.
-
             var mapElt = view.getMapElement().get(0),
                 map = Leaflet.map(mapElt, {
                     center: [50, 0],    // center the map over Europe region
@@ -39,8 +38,7 @@ define([
             // you can create your custom map here:
             // https://www.mapbox.com/
 
-//            Leaflet.tileLayer('http://{s}.tiles.mapbox.com/v3/YOUR-MAP-ID/{z}/{x}/{y}.png', {
-            Leaflet.tileLayer('http://{s}.tiles.mapbox.com/v3/raffalli.i3ip4bic/{z}/{x}/{y}.png', {
+            Leaflet.tileLayer('http://{s}.tiles.mapbox.com/v3/YOUR-MAP-ID/{z}/{x}/{y}.png', {
                 maxZoom: 10
             }).addTo(map);
 
@@ -66,6 +64,7 @@ define([
     });
 
     function style() {
+        // Set the area with a transparent background, bordered with dash colored in #aaa
         return {
             fillColor: "transparent",
             weight: 1,
@@ -76,12 +75,15 @@ define([
     }
 
     function clickEvt(e) {
+        // We will handle the click event here
+        // This currently displays the name of the clicked area
         console.log('Click on ' + e.target.feature.properties.name);
     }
 
     function highlightFeature(e) {
         var layer = e.target;
 
+        // When the user mouses over a specific area, this one gets the background changed to #ccc and the border weight increased.
         layer.setStyle({
             fillColor: "#ccc",
             weight: 2,
