@@ -40,7 +40,11 @@ require.config({
         },
         'marionette': {
             deps: ['jquery', 'underscore', 'backbone'],
-            exports: 'Backbone.Marionette'
+            exports: 'Marionette'
+        },
+        'backbone.wreqr': {
+            deps: ['backbone'],
+            exports: 'Backbone.Wreqr'
         },
         'leaflet': {
             exports: 'Leaflet'

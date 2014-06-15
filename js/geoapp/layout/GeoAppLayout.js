@@ -15,7 +15,7 @@ define([
 
     return Marionette.Layout.extend({
 
-        className:'mr-geoapp-elt',
+        className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
         template: template['_geoAppLayout.hbs'],

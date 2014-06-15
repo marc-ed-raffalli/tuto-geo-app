@@ -16,17 +16,8 @@ define([
         // set the template to use in this view, file name is used as identifier
         template: template['_countryNameView.hbs'],
 
-        // Set the ui elements that we will use
-        ui: {
-            countryName: '.mr-geoappMain-countryName'
-        },
-        onRender: function () {
-            // set default values on show
-            this.setCountryNameText('');
-        },
-        setCountryNameText: function (cName) {
-            // access to the element and set the text
-            this.ui.countryName.text(cName);
+        initialize: function(){
+            this.model.on('change:countryName', this.render, this);
         }
     });
 });

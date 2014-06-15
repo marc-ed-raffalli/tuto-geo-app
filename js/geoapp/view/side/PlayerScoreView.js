@@ -15,26 +15,10 @@ define([
 
         className:'mr-geoapp-elt',
 
-        // set the template to use in this view, file name is used as identifier
         template: template['_playerScoreView.hbs'],
 
-        // Set the ui elements that we will use
-        ui: {
-            correct: '.mr-geoappSide-playerScore-correct',
-            error: '.mr-geoappSide-playerScore-error'
-        },
-        onRender: function () {
-            // set default values on show
-            this.setCorrectText('0');
-            this.setErrorText('0');
-        },
-        setCorrectText: function (correct) {
-            // access to the element and set the text
-            this.ui.correct.text(correct);
-        },
-        setErrorText: function (error) {
-            // access to the element and set the text
-            this.ui.error.text(error);
+        initialize: function(){
+            this.model.on('change:score', this.render, this);
         }
     });
 });

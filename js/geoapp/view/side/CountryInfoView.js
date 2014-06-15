@@ -17,7 +17,7 @@ define([
         template: template['_countryInfoView.hbs'],
 
         onRender: function () {
-            // Feature will be introduced later
+            this.model.on('change:countryInfo', this.render, this);
         }
     });
 });

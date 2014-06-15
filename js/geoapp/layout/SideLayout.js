@@ -7,15 +7,16 @@
 /* global define */
 define([
     'marionette',
+    'backbone.wreqr',
     'view/side/PlayerScoreView',
     'view/side/CountryInfoView',
     'templates/sideTemplates'
-], function (Marionette, PlayerScoreView, CountryInfoView, template) {
+], function (Marionette, Wreqr, PlayerScoreView, CountryInfoView, template) {
     'use strict';
 
     return Marionette.Layout.extend({
 
-        className:'mr-geoapp-elt',
+        className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
         template: template['_sideLayout.hbs'],
@@ -26,9 +27,17 @@ define([
             infoRegion: '.mr-geoappSide-countryInfoHolder'
         },
         onShow: function () {
+            // Use Backbone.Wreqr for the event mechanism
+            // https://github.com/marionettejs/backbone.wreqr
+            var gameModel = Wreqr.radio.reqres.request('game', 'gameModel');
+
             // instantiate and show view
-            this.scoreRegion.show(new PlayerScoreView());
-            this.infoRegion.show(new CountryInfoView());
+            this.scoreRegion.show(new PlayerScoreView({
+                model: gameModel
+            }));
+            this.infoRegion.show(new CountryInfoView({
+                model: gameModel
+            }));
         }
     });
 });
