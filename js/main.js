@@ -2,7 +2,7 @@
  * User: Marc Edouard Raffalli
  * Date: 27/03/14
  * Time: 18:21
- * Website: http://raffalli-marc-ed.com/
+ * Website: http://marc-ed-raffalli.com/
  */
 /* global require */
 require.config({
@@ -16,13 +16,14 @@ require.config({
         'text': '../../vendor/require/text',
         'backbone': '../../vendor/backbone/backbone.min',
         'backbone.wreqr': '../../vendor/marionette/backbone.wreqr.min',
-        'backbone.babysitter': '../../vendor/marionette/backbone.babysitter.min',
         'marionette': '../../vendor/marionette/backbone.marionette.min',
         'handlebars.runtime': '../../vendor/handlebars/handlebars.runtime.amd.min',
         //App
         'GeoApp': './GeoApp',
-        'templates': './templates',// added to ease the access to templates
-        'view': './view'// added to ease the access to views
+        'templates': './templates', // added to ease the access to templates folder
+        'view': './view',           // views folder
+        'region': './region',       // regions folder
+        'data': './data'            // data folder
     },
     shim: {
         'jquery': {
@@ -37,7 +38,14 @@ require.config({
         },
         'marionette': {
             deps: ['jquery', 'underscore', 'backbone'],
-            exports: 'Backbone.Marionette'
+            exports: 'Marionette'
+        },
+        'backbone.wreqr': {
+            deps: ['backbone'],
+            exports: 'Backbone.Wreqr'
+        },
+        'leaflet': {
+            exports: 'Leaflet'
         }
     }
 });
