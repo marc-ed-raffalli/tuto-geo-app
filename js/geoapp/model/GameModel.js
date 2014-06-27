@@ -2,7 +2,7 @@
  * User: Marc Edouard Raffalli
  * Date: 08/06/14
  * Time: 02:26
- * Website: http://raffalli-marc-ed.com/
+ * Website: http://marc-ed-raffalli.com/
  */
 /* global define */
 define([

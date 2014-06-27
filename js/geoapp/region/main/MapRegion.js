@@ -2,7 +2,7 @@
  * User: Marc Edouard Raffalli
  * Date: 28/05/14
  * Time: 19:20
- * Website: http://raffalli-marc-ed.com/
+ * Website: http://marc-ed-raffalli.com/
  */
 /* global define */
 define([
@@ -43,8 +43,8 @@ define([
             //
             // you can create your custom map here:
             // https://www.mapbox.com/
-            Leaflet.tileLayer('http://{s}.tiles.mapbox.com/v3/raffalli.i3ip4bic/{z}/{x}/{y}.png', {
-//            Leaflet.tileLayer('http://{s}.tiles.mapbox.com/v3/YOUR-MAP-ID/{z}/{x}/{y}.png', {
+
+            Leaflet.tileLayer('http://{s}.tiles.mapbox.com/v3/YOUR-MAP-ID/{z}/{x}/{y}.png', {
                 maxZoom: 10
             }).addTo(map);
 

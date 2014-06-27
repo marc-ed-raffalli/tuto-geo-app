@@ -2,7 +2,7 @@
  * User: Marc Edouard Raffalli
  * Date: 27/03/14
  * Time: 18:41
- * Website: http://raffalli-marc-ed.com/
+ * Website: http://marc-ed-raffalli.com/
  */
 /* global define */
 define([
@@ -16,7 +16,7 @@ define([
         // set the template to use in this view, file name is used as identifier
         template: template['_countryInfoView.hbs'],
 
-        onRender: function () {
+        initialize: function(){
             this.model.on('change:countryInfo', this.render, this);
         }
     });

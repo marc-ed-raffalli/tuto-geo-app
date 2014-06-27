@@ -14,7 +14,7 @@ The UI design will be developed to be multi device compatible.
 
 Web Tutorial for web development using
 
-*   [Backbone Marionette][2] *v1.7.3*
+*   [Backbone Marionette][2] *v1.8.7*
 *   [Bootstrap 3][3] *v3.1.1*
 *   [Handlebars][4] *2\.0.0-alpha.2*
 *   [Less][5] *v1.7.0*

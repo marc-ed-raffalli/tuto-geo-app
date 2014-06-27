@@ -2,7 +2,7 @@
  * User: Marc Edouard Raffalli
  * Date: 27/03/14
  * Time: 18:21
- * Website: http://raffalli-marc-ed.com/
+ * Website: http://marc-ed-raffalli.com/
  */
 /* global require */
 require.config({
@@ -16,7 +16,6 @@ require.config({
         'text': '../../vendor/require/text',
         'backbone': '../../vendor/backbone/backbone.min',
         'backbone.wreqr': '../../vendor/marionette/backbone.wreqr.min',
-        'backbone.babysitter': '../../vendor/marionette/backbone.babysitter.min',
         'marionette': '../../vendor/marionette/backbone.marionette.min',
         'handlebars.runtime': '../../vendor/handlebars/handlebars.runtime.amd.min',
         'leaflet': '../../vendor/leaflet/js/leaflet',
