@@ -2,7 +2,7 @@
  * User: Marc Edouard Raffalli
  * Date: 27/03/14
  * Time: 18:41
- * Website: http://raffalli-marc-ed.com/
+ * Website: http://marc-ed-raffalli.com/
  */
 /* global define */
 define([
@@ -13,28 +13,13 @@ define([
 
     return Marionette.ItemView.extend({
 
+        // Backbone automatically wrap the View into a div tag, we need that tag to be position relative and taking full height of its parent.
+        // It is possible to specify the tag name and class name in the View and remove the root element of the template.
+        // However, I don't like to mix markup and styling with logic side of the code.
+        // This css class name only provides the position and height.
         className:'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
-        template: template['_playerScoreView.hbs'],
-
-        // Set the ui elements that we will use
-        ui: {
-            correct: '.mr-geoappSide-playerScore-correct',
-            error: '.mr-geoappSide-playerScore-error'
-        },
-        onRender: function () {
-            // set default values on show
-            this.setCorrectText('0');
-            this.setErrorText('0');
-        },
-        setCorrectText: function (correct) {
-            // access to the element and set the text
-            this.ui.correct.text(correct);
-        },
-        setErrorText: function (error) {
-            // access to the element and set the text
-            this.ui.error.text(error);
-        }
+        template: template['_playerScoreView.hbs']
     });
 });
