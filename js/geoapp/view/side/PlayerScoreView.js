@@ -23,6 +23,8 @@ define([
         template: template['_playerScoreView.hbs'],
 
         initialize: function(){
+            // Listen to the change event on the score attribute of the Model
+            // render will be called every time the value of the score changes
             this.model.on('change:score', this.render, this);
         }
     });

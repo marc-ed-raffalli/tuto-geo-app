@@ -42,7 +42,15 @@ define([
         },
         selectNewCountry: function () {
             this.currentId = getRandomId.call(this);
-            this.gameModel.setCountryName(countriesData[this.currentId].name);
+            var newCountry = countriesData[this.currentId],
+                countryData = {
+                    capital: newCountry.capital,
+                    currency: newCountry.currency,
+                    language: newCountry.language,
+                    area: (newCountry.area !== -1) ? newCountry.area : null
+                };
+            this.gameModel.setCountryName(newCountry.name);
+            this.gameModel.setCountryInfo(countryData);
         },
         startGame: function () {
             // When the game starts, set the score to zero, and select a new country to find

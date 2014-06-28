@@ -81,11 +81,6 @@ define([
         };
     }
 
-    function clickEvt(e) {
-        // We will handle the click event here
-        // This currently displays the name of the clicked area
-        console.log('Click on ' + e.target.feature.properties.name);
-    }
 
     function highlightFeature(e) {
         var layer = e.target;

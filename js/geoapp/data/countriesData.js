@@ -11,10 +11,10 @@ define({
         "capital": "Kabul",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Pashto",
-            "1": "Dari"
-        },
+        "language": [
+            "Pashto",
+            "Dari"
+        ],
         "translations": {
             "cy": "Affganistan",
             "de": "Afghanistan",
@@ -52,9 +52,9 @@ define({
         "capital": "Mariehamn",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Swedish"
-        },
+        "language": [
+            "Swedish"
+        ],
         "translations": {
             "de": "\u00c5land",
             "es": "Alandia",
@@ -84,9 +84,9 @@ define({
         "capital": "Tirana",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Albanian"
-        },
+        "language": [
+            "Albanian"
+        ],
         "translations": {
             "cy": "Albania",
             "de": "Albanien",
@@ -122,9 +122,9 @@ define({
         "capital": "Algiers",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "cy": "Algeria",
             "de": "Algerien",
@@ -163,10 +163,10 @@ define({
         "capital": "Pago\u0020Pago",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "English",
-            "1": "Samoan"
-        },
+        "language": [
+            "English",
+            "Samoan"
+        ],
         "translations": {
             "de": "Amerikanisch\u002dSamoa",
             "es": "Samoa\u0020Americana",
@@ -196,9 +196,9 @@ define({
         "capital": "Andorra\u0020la\u0020Vella",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Catalan"
-        },
+        "language": [
+            "Catalan"
+        ],
         "translations": {
             "cy": "Andorra",
             "de": "Andorra",
@@ -232,9 +232,9 @@ define({
         "capital": "Luanda",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "cy": "Angola",
             "de": "Angola",
@@ -270,9 +270,9 @@ define({
         "capital": "The\u0020Valley",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Anguilla",
             "es": "Anguilla",
@@ -302,9 +302,9 @@ define({
         "capital": "",
         "region": "",
         "subregion": "",
-        "language": {
-            "0": ""
-        },
+        "language": [
+            ""
+        ],
         "translations": {
             "cy": "Antarctica",
             "de": "Antarktis",
@@ -335,9 +335,9 @@ define({
         "capital": "Saint\u0020John\u0027s",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Antigwa\u0020a\u0020Barbiwda",
             "de": "Antigua\u0020und\u0020Barbuda",
@@ -368,9 +368,9 @@ define({
         "capital": "Buenos\u0020Aires",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Ariannin",
             "de": "Argentinien",
@@ -407,9 +407,9 @@ define({
         "capital": "Yerevan",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Armenian"
-        },
+        "language": [
+            "Armenian"
+        ],
         "translations": {
             "cy": "Armenia",
             "de": "Armenien",
@@ -445,10 +445,10 @@ define({
         "capital": "Oranjestad",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Dutch",
-            "1": "Papiamento"
-        },
+        "language": [
+            "Dutch",
+            "Papiamento"
+        ],
         "translations": {
             "de": "Aruba",
             "es": "Aruba",
@@ -478,9 +478,9 @@ define({
         "capital": "Canberra",
         "region": "Oceania",
         "subregion": "Australia and New Zealand",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Awstralia",
             "de": "Australien",
@@ -511,9 +511,9 @@ define({
         "capital": "Vienna",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "German"
-        },
+        "language": [
+            "German"
+        ],
         "translations": {
             "cy": "Awstria",
             "de": "\u00d6sterreich",
@@ -553,9 +553,9 @@ define({
         "capital": "Baku",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Azerbaijani"
-        },
+        "language": [
+            "Azerbaijani"
+        ],
         "translations": {
             "cy": "Aserbaijan",
             "de": "Aserbaidschan",
@@ -592,9 +592,9 @@ define({
         "capital": "Nassau",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Bahamas",
             "de": "Bahamas",
@@ -625,9 +625,9 @@ define({
         "capital": "Manama",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "cy": "Bahrain",
             "de": "Bahrain",
@@ -658,9 +658,9 @@ define({
         "capital": "Dhaka",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Bangla"
-        },
+        "language": [
+            "Bangla"
+        ],
         "translations": {
             "cy": "Bangladesh",
             "de": "Bangladesch",
@@ -694,9 +694,9 @@ define({
         "capital": "Bridgetown",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Barbados",
             "de": "Barbados",
@@ -727,10 +727,10 @@ define({
         "capital": "Minsk",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Belarusian",
-            "1": "Russian"
-        },
+        "language": [
+            "Belarusian",
+            "Russian"
+        ],
         "translations": {
             "cy": "Belarws",
             "de": "Wei\u00dfrussland",
@@ -767,11 +767,11 @@ define({
         "capital": "Brussels",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "Dutch",
-            "1": "French",
-            "2": "German"
-        },
+        "language": [
+            "Dutch",
+            "French",
+            "German"
+        ],
         "translations": {
             "cy": "Gwlad\u0020Belg",
             "de": "Belgien",
@@ -807,9 +807,9 @@ define({
         "capital": "Belmopan",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Belize",
             "de": "Belize",
@@ -843,9 +843,9 @@ define({
         "capital": "Porto\u002dNovo",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "cy": "Benin",
             "de": "Benin",
@@ -881,9 +881,9 @@ define({
         "capital": "Hamilton",
         "region": "Americas",
         "subregion": "Northern America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Bermiwda",
             "de": "Bermuda",
@@ -915,9 +915,9 @@ define({
         "capital": "Thimphu",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Dzongkha"
-        },
+        "language": [
+            "Dzongkha"
+        ],
         "translations": {
             "cy": "Bhwtan",
             "de": "Bhutan",
@@ -952,12 +952,12 @@ define({
         "capital": "Sucre",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish",
-            "1": "Quechua",
-            "2": "Aymara",
-            "3": "Guaran\u00ed"
-        },
+        "language": [
+            "Spanish",
+            "Quechua",
+            "Aymara",
+            "Guaran\u00ed"
+        ],
         "translations": {
             "cy": "Bolifia",
             "de": "Bolivien",
@@ -994,9 +994,9 @@ define({
         "capital": "Kralendijk",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Dutch"
-        },
+        "language": [
+            "Dutch"
+        ],
         "translations": {},
         "latlng": [
             12.15,
@@ -1018,11 +1018,11 @@ define({
         "capital": "Sarajevo",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Bosnian",
-            "1": "Croatian",
-            "2": "Serbian"
-        },
+        "language": [
+            "Bosnian",
+            "Croatian",
+            "Serbian"
+        ],
         "translations": {
             "cy": "Bosnia\u0020a\u0020Hercegovina",
             "de": "Bosnien\u0020und\u0020Herzegowina",
@@ -1057,10 +1057,10 @@ define({
         "capital": "Gaborone",
         "region": "Africa",
         "subregion": "Southern Africa",
-        "language": {
-            "0": "English",
-            "1": "Setswana"
-        },
+        "language": [
+            "English",
+            "Setswana"
+        ],
         "translations": {
             "de": "Botswana",
             "es": "Botswana",
@@ -1095,9 +1095,9 @@ define({
         "capital": "",
         "region": "",
         "subregion": "",
-        "language": {
-            "0": ""
-        },
+        "language": [
+            ""
+        ],
         "translations": {
             "de": "Bouvetinsel",
             "es": "Isla\u0020Bouvet",
@@ -1127,9 +1127,9 @@ define({
         "capital": "Bras\u00edlia",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "cy": "Brasil",
             "de": "Brasilien",
@@ -1171,9 +1171,9 @@ define({
         "capital": "Diego\u0020Garcia",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Tiriogaeth\u0020Brydeinig\u0020Cefnfor\u0020India",
             "de": "Britisches\u0020Territorium\u0020im\u0020Indischen\u0020Ozean",
@@ -1204,9 +1204,9 @@ define({
         "capital": "Road\u0020Town",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Britische\u0020Jungferninseln",
             "es": "Islas\u0020V\u00edrgenes\u0020del\u0020Reino\u0020Unido",
@@ -1236,9 +1236,9 @@ define({
         "capital": "Bandar\u0020Seri\u0020Begawan",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Malay"
-        },
+        "language": [
+            "Malay"
+        ],
         "translations": {
             "cy": "Brunei",
             "fr": "Brunei",
@@ -1271,9 +1271,9 @@ define({
         "capital": "Sofia",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Bulgarian"
-        },
+        "language": [
+            "Bulgarian"
+        ],
         "translations": {
             "cy": "Bwlgaria",
             "de": "Bulgarien",
@@ -1310,9 +1310,9 @@ define({
         "capital": "Ouagadougou",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "cy": "Burkina\u0020Faso",
             "de": "Burkina\u0020Faso",
@@ -1350,10 +1350,10 @@ define({
         "capital": "Bujumbura",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Kirundi",
-            "1": "French"
-        },
+        "language": [
+            "Kirundi",
+            "French"
+        ],
         "translations": {
             "cy": "Bwrwndi",
             "de": "Burundi",
@@ -1388,9 +1388,9 @@ define({
         "capital": "Phnom\u0020Penh",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Khmer"
-        },
+        "language": [
+            "Khmer"
+        ],
         "translations": {
             "cy": "Cambodia",
             "fr": "Cambodge",
@@ -1425,10 +1425,10 @@ define({
         "capital": "Yaound\u00e9",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "French",
-            "1": "English"
-        },
+        "language": [
+            "French",
+            "English"
+        ],
         "translations": {
             "cy": "Camer\u0175n",
             "de": "Kamerun",
@@ -1466,10 +1466,10 @@ define({
         "capital": "Ottawa",
         "region": "Americas",
         "subregion": "Northern America",
-        "language": {
-            "0": "English",
-            "1": "French"
-        },
+        "language": [
+            "English",
+            "French"
+        ],
         "translations": {
             "cy": "Canada",
             "de": "Kanada",
@@ -1502,9 +1502,9 @@ define({
         "capital": "Praia",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "cy": "Cape\u0020Verde",
             "de": "Kap\u0020Verde",
@@ -1535,9 +1535,9 @@ define({
         "capital": "George\u0020Town",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Ynysoedd\u005fCayman",
             "de": "Kaimaninseln",
@@ -1568,10 +1568,10 @@ define({
         "capital": "Bangui",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "Sango",
-            "1": "French"
-        },
+        "language": [
+            "Sango",
+            "French"
+        ],
         "translations": {
             "cy": "Gweriniaeth\u0020Canolbarth\u0020Affrica",
             "de": "Zentralafrikanische\u0020Republik",
@@ -1609,10 +1609,10 @@ define({
         "capital": "N\u0027Djamena",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "French",
-            "1": "Arabic"
-        },
+        "language": [
+            "French",
+            "Arabic"
+        ],
         "translations": {
             "cy": "Tsiad",
             "de": "Tschad",
@@ -1651,9 +1651,9 @@ define({
         "capital": "Santiago",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Chile",
             "de": "Chile",
@@ -1688,9 +1688,9 @@ define({
         "capital": "Beijing",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Standard\u0020Chinese"
-        },
+        "language": [
+            "Standard\u0020Chinese"
+        ],
         "translations": {
             "cy": "Tsieina",
             "de": "China",
@@ -1737,9 +1737,9 @@ define({
         "capital": "Flying\u0020Fish\u0020Cove",
         "region": "Oceania",
         "subregion": "Australia and New Zealand",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Ynys\u0020y\u0020Nadolig",
             "fr": "\u00cele\u0020Christmas",
@@ -1770,9 +1770,9 @@ define({
         "capital": "West\u0020Island",
         "region": "Oceania",
         "subregion": "Australia and New Zealand",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Ynysoedd\u0020Cocos",
             "fr": "\u00celes\u0020Cocos",
@@ -1803,9 +1803,9 @@ define({
         "capital": "Bogot\u00e1",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Colombia",
             "de": "Kolumbien",
@@ -1842,11 +1842,11 @@ define({
         "capital": "Moroni",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Comorian",
-            "1": "Arabic",
-            "2": "French"
-        },
+        "language": [
+            "Comorian",
+            "Arabic",
+            "French"
+        ],
         "translations": {
             "cy": "Comoros",
             "de": "Union\u0020der\u0020Komoren",
@@ -1877,9 +1877,9 @@ define({
         "capital": "Brazzaville",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "cy": "Gweriniaeth\u0020y\u0020Congo",
             "de": "Kongo",
@@ -1916,9 +1916,9 @@ define({
         "capital": "Kinshasa",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "cy": "Gweriniaeth\u0020Ddemocrataidd\u0020Congo",
             "de": "Kongo\u0020\u0028Dem\u002e\u0020Rep\u002e\u0029",
@@ -1959,10 +1959,10 @@ define({
         "capital": "Avarua",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "English",
-            "1": "Cook\u0020Islands\u0020M\u0101ori"
-        },
+        "language": [
+            "English",
+            "Cook\u0020Islands\u0020M\u0101ori"
+        ],
         "translations": {
             "cy": "Ynysoedd\u0020Cook",
             "de": "Cookinseln",
@@ -1993,9 +1993,9 @@ define({
         "capital": "San\u0020Jos\u00e9",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Costa\u0020Rica",
             "de": "Costa\u0020Rica",
@@ -2029,9 +2029,9 @@ define({
         "capital": "Zagreb",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Croatian"
-        },
+        "language": [
+            "Croatian"
+        ],
         "translations": {
             "cy": "Croatia",
             "de": "Kroatien",
@@ -2069,9 +2069,9 @@ define({
         "capital": "Havana",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Ciwba",
             "de": "Kuba",
@@ -2102,11 +2102,11 @@ define({
         "capital": "Willemstad",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Dutch",
-            "1": "Papiamentu",
-            "2": "English"
-        },
+        "language": [
+            "Dutch",
+            "Papiamentu",
+            "English"
+        ],
         "translations": {
             "nl": "Cura\u00e7ao"
         },
@@ -2130,10 +2130,10 @@ define({
         "capital": "Nicosia",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Greek",
-            "1": "Turkish"
-        },
+        "language": [
+            "Greek",
+            "Turkish"
+        ],
         "translations": {
             "cy": "Cyprus",
             "de": "Zypern",
@@ -2166,9 +2166,9 @@ define({
         "capital": "Prague",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Czech"
-        },
+        "language": [
+            "Czech"
+        ],
         "translations": {
             "cy": "Y\u0020Weriniaeth\u0020Tsiec",
             "de": "Tschechische\u0020Republik",
@@ -2204,9 +2204,9 @@ define({
         "capital": "Copenhagen",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Danish"
-        },
+        "language": [
+            "Danish"
+        ],
         "translations": {
             "cy": "Denmarc",
             "de": "D\u00e4nemark",
@@ -2239,10 +2239,10 @@ define({
         "capital": "Djibouti",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "French",
-            "1": "Arabic"
-        },
+        "language": [
+            "French",
+            "Arabic"
+        ],
         "translations": {
             "cy": "Djibouti",
             "de": "Dschibuti",
@@ -2277,9 +2277,9 @@ define({
         "capital": "Roseau",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "cy": "Dominica",
             "de": "Dominica",
@@ -2312,9 +2312,9 @@ define({
         "capital": "Santo\u0020Domingo",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Gweriniaeth\u005fDominica",
             "de": "Dominikanische\u0020Republik",
@@ -2347,9 +2347,9 @@ define({
         "capital": "Quito",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "cy": "Ecwador",
             "de": "Ecuador",
@@ -2383,9 +2383,9 @@ define({
         "capital": "Cairo",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "cy": "Yr\u0020Aifft",
             "de": "\u00c4gypten",
@@ -2421,9 +2421,9 @@ define({
         "capital": "San\u0020Salvador",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Castilian"
-        },
+        "language": [
+            "Castilian"
+        ],
         "translations": {
             "cy": "El\u0020Salvador",
             "de": "El\u0020Salvador",
@@ -2457,11 +2457,11 @@ define({
         "capital": "Malabo",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "Spanish",
-            "1": "French",
-            "2": "Portuguese"
-        },
+        "language": [
+            "Spanish",
+            "French",
+            "Portuguese"
+        ],
         "translations": {
             "cy": "Gini\u0020Gyhydeddol",
             "de": "\u00c4quatorial\u002dGuinea",
@@ -2495,11 +2495,11 @@ define({
         "capital": "Asmara",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Tigrinya",
-            "1": "Arabic",
-            "2": "English"
-        },
+        "language": [
+            "Tigrinya",
+            "Arabic",
+            "English"
+        ],
         "translations": {
             "cy": "Eritrea",
             "de": "Eritrea",
@@ -2534,9 +2534,9 @@ define({
         "capital": "Tallinn",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Estonian"
-        },
+        "language": [
+            "Estonian"
+        ],
         "translations": {
             "cy": "Estonia",
             "de": "Estland",
@@ -2570,9 +2570,9 @@ define({
         "capital": "Addis\u0020Ababa",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Amharic"
-        },
+        "language": [
+            "Amharic"
+        ],
         "translations": {
             "cy": "Ethiopia",
             "de": "\u00c4thiopien",
@@ -2610,9 +2610,9 @@ define({
         "capital": "Stanley",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Falklandinseln",
             "es": "Islas\u0020Malvinas",
@@ -2642,10 +2642,10 @@ define({
         "capital": "T\u00f3rshavn",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Faroese",
-            "1": "Danish"
-        },
+        "language": [
+            "Faroese",
+            "Danish"
+        ],
         "translations": {
             "de": "F\u00e4r\u00f6er\u002dInseln",
             "es": "Islas\u0020Faroe",
@@ -2675,11 +2675,11 @@ define({
         "capital": "Suva",
         "region": "Oceania",
         "subregion": "Melanesia",
-        "language": {
-            "0": "English",
-            "1": "Fijian",
-            "2": "Fiji\u0020Hindi"
-        },
+        "language": [
+            "English",
+            "Fijian",
+            "Fiji\u0020Hindi"
+        ],
         "translations": {
             "de": "Fidschi",
             "es": "Fiyi",
@@ -2709,10 +2709,10 @@ define({
         "capital": "Helsinki",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Finnish",
-            "1": "Swedish"
-        },
+        "language": [
+            "Finnish",
+            "Swedish"
+        ],
         "translations": {
             "de": "Finnland",
             "es": "Finlandia",
@@ -2746,9 +2746,9 @@ define({
         "capital": "Paris",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Frankreich",
             "es": "Francia",
@@ -2787,9 +2787,9 @@ define({
         "capital": "Cayenne",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Franz\u00f6sisch\u0020Guyana",
             "es": "Guayana\u0020Francesa",
@@ -2822,9 +2822,9 @@ define({
         "capital": "Papeet\u0113",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Franz\u00f6sisch\u002dPolynesien",
             "es": "Polinesia\u0020Francesa",
@@ -2854,9 +2854,9 @@ define({
         "capital": "Port\u002daux\u002dFran\u00e7ais",
         "region": "",
         "subregion": "",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Franz\u00f6sische\u0020S\u00fcd\u002d\u0020und\u0020Antarktisgebiete",
             "es": "Tierras\u0020Australes\u0020y\u0020Ant\u00e1rticas\u0020Francesas",
@@ -2886,9 +2886,9 @@ define({
         "capital": "Libreville",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Gabun",
             "es": "Gab\u00f3n",
@@ -2922,9 +2922,9 @@ define({
         "capital": "Banjul",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Gambia",
             "es": "Gambia",
@@ -2956,9 +2956,9 @@ define({
         "capital": "Tbilisi",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Georgian"
-        },
+        "language": [
+            "Georgian"
+        ],
         "translations": {
             "de": "Georgien",
             "es": "Georgia",
@@ -2993,9 +2993,9 @@ define({
         "capital": "Berlin",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "German"
-        },
+        "language": [
+            "German"
+        ],
         "translations": {
             "de": "Deutschland",
             "es": "Alemania",
@@ -3035,9 +3035,9 @@ define({
         "capital": "Accra",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Ghana",
             "es": "Ghana",
@@ -3071,9 +3071,9 @@ define({
         "capital": "Gibraltar",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Gibraltar",
             "es": "Gibraltar",
@@ -3105,9 +3105,9 @@ define({
         "capital": "Athens",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Greek"
-        },
+        "language": [
+            "Greek"
+        ],
         "translations": {
             "de": "Griechenland",
             "es": "Grecia",
@@ -3142,9 +3142,9 @@ define({
         "capital": "Nuuk",
         "region": "Americas",
         "subregion": "Northern America",
-        "language": {
-            "0": "Greenlandic"
-        },
+        "language": [
+            "Greenlandic"
+        ],
         "translations": {
             "de": "Gr\u00f6nland",
             "es": "Groenlandia",
@@ -3174,9 +3174,9 @@ define({
         "capital": "St\u002e\u0020George\u0027s",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Grenada",
             "es": "Grenada",
@@ -3206,9 +3206,9 @@ define({
         "capital": "Basse\u002dTerre",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Guadeloupe",
             "es": "Guadalupe",
@@ -3238,10 +3238,10 @@ define({
         "capital": "Hag\u00e5t\u00f1a",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "English",
-            "1": "Chamorro"
-        },
+        "language": [
+            "English",
+            "Chamorro"
+        ],
         "translations": {
             "de": "Guam",
             "es": "Guam",
@@ -3271,9 +3271,9 @@ define({
         "capital": "Guatemala\u0020City",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Guatemala",
             "es": "Guatemala",
@@ -3308,10 +3308,10 @@ define({
         "capital": "St\u002e\u0020Peter\u0020Port",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "English",
-            "1": "French"
-        },
+        "language": [
+            "English",
+            "French"
+        ],
         "translations": {
             "de": "Guernsey",
             "es": "Guernsey",
@@ -3341,9 +3341,9 @@ define({
         "capital": "Conakry",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Guinea",
             "es": "Guinea",
@@ -3380,9 +3380,9 @@ define({
         "capital": "Bissau",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "de": "Guinea\u002dBissau",
             "es": "Guinea\u002dBis\u00e1u",
@@ -3415,9 +3415,9 @@ define({
         "capital": "Georgetown",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Guyana",
             "es": "Guyana",
@@ -3452,10 +3452,10 @@ define({
         "capital": "Port\u002dau\u002dPrince",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "French",
-            "1": "Haitian\u0020Creole"
-        },
+        "language": [
+            "French",
+            "Haitian\u0020Creole"
+        ],
         "translations": {
             "de": "Haiti",
             "es": "Haiti",
@@ -3487,9 +3487,9 @@ define({
         "capital": "",
         "region": "",
         "subregion": "",
-        "language": {
-            "0": ""
-        },
+        "language": [
+            ""
+        ],
         "translations": {
             "de": "Heard\u0020und\u0020die\u0020McDonaldinseln",
             "es": "Islas\u0020Heard\u0020y\u0020McDonald",
@@ -3520,9 +3520,9 @@ define({
         "capital": "Vatican\u0020City",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Italian"
-        },
+        "language": [
+            "Italian"
+        ],
         "translations": {
             "de": "Vatikanstadt",
             "es": "Ciudad\u0020del\u0020Vaticano",
@@ -3554,9 +3554,9 @@ define({
         "capital": "Tegucigalpa",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Honduras",
             "es": "Honduras",
@@ -3590,10 +3590,10 @@ define({
         "capital": "City\u0020of\u0020Victoria",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Chinese",
-            "1": "English"
-        },
+        "language": [
+            "Chinese",
+            "English"
+        ],
         "translations": {
             "de": "Hongkong",
             "es": "Hong\u0020Kong",
@@ -3625,9 +3625,9 @@ define({
         "capital": "Budapest",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Hungarian"
-        },
+        "language": [
+            "Hungarian"
+        ],
         "translations": {
             "de": "Ungarn",
             "es": "Hungr\u00eda",
@@ -3665,9 +3665,9 @@ define({
         "capital": "Reykjavik",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Icelandic"
-        },
+        "language": [
+            "Icelandic"
+        ],
         "translations": {
             "de": "Island",
             "es": "Islandia",
@@ -3697,10 +3697,10 @@ define({
         "capital": "New\u0020Delhi",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Hindi",
-            "1": "English"
-        },
+        "language": [
+            "Hindi",
+            "English"
+        ],
         "translations": {
             "de": "Indien",
             "es": "India",
@@ -3739,9 +3739,9 @@ define({
         "capital": "Jakarta",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Indonesian"
-        },
+        "language": [
+            "Indonesian"
+        ],
         "translations": {
             "fr": "Indon\u00e9sie",
             "nl": "Indonesi\u00eb",
@@ -3775,9 +3775,9 @@ define({
         "capital": "Yamoussoukro",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Elfenbeink\u00fcste",
             "es": "Costa\u0020de\u0020Marfil",
@@ -3813,9 +3813,9 @@ define({
         "capital": "Tehran",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Persian"
-        },
+        "language": [
+            "Persian"
+        ],
         "translations": {
             "de": "Iran",
             "es": "Iran",
@@ -3852,11 +3852,11 @@ define({
         "capital": "Baghdad",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic",
-            "1": "Kurdish",
-            "2": "Syriac"
-        },
+        "language": [
+            "Arabic",
+            "Kurdish",
+            "Syriac"
+        ],
         "translations": {
             "de": "Irak",
             "es": "Irak",
@@ -3893,10 +3893,10 @@ define({
         "capital": "Dublin",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Irish",
-            "1": "English"
-        },
+        "language": [
+            "Irish",
+            "English"
+        ],
         "translations": {
             "de": "Irland",
             "es": "Irlanda",
@@ -3928,10 +3928,10 @@ define({
         "capital": "Douglas",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "English",
-            "1": "Manx"
-        },
+        "language": [
+            "English",
+            "Manx"
+        ],
         "translations": {
             "de": "Insel\u0020Man",
             "es": "Isla\u0020de\u0020Man",
@@ -3961,10 +3961,10 @@ define({
         "capital": "Jerusalem",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Hebrew",
-            "1": "Arabic"
-        },
+        "language": [
+            "Hebrew",
+            "Arabic"
+        ],
         "translations": {
             "de": "Israel",
             "es": "Israel",
@@ -3999,9 +3999,9 @@ define({
         "capital": "Rome",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Italian"
-        },
+        "language": [
+            "Italian"
+        ],
         "translations": {
             "de": "Italien",
             "es": "Italia",
@@ -4038,9 +4038,9 @@ define({
         "capital": "Kingston",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Jamaican\u0020English"
-        },
+        "language": [
+            "Jamaican\u0020English"
+        ],
         "translations": {
             "de": "Jamaika",
             "es": "Jamaica",
@@ -4070,9 +4070,9 @@ define({
         "capital": "Tokyo",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Japanese"
-        },
+        "language": [
+            "Japanese"
+        ],
         "translations": {
             "de": "Japan",
             "es": "Jap\u00f3n",
@@ -4102,10 +4102,10 @@ define({
         "capital": "Saint\u0020Helier",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "English",
-            "1": "French"
-        },
+        "language": [
+            "English",
+            "French"
+        ],
         "translations": {
             "de": "Jersey",
             "es": "Jersey",
@@ -4135,9 +4135,9 @@ define({
         "capital": "Amman",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Jordanien",
             "es": "Jordania",
@@ -4173,10 +4173,10 @@ define({
         "capital": "Astana",
         "region": "Asia",
         "subregion": "Central Asia",
-        "language": {
-            "0": "Kazakh",
-            "1": "Russian"
-        },
+        "language": [
+            "Kazakh",
+            "Russian"
+        ],
         "translations": {
             "de": "Kasachstan",
             "es": "Kazajist\u00e1n",
@@ -4212,10 +4212,10 @@ define({
         "capital": "Nairobi",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Swahili",
-            "1": "English"
-        },
+        "language": [
+            "Swahili",
+            "English"
+        ],
         "translations": {
             "de": "Kenia",
             "es": "Kenia",
@@ -4251,10 +4251,10 @@ define({
         "capital": "South\u0020Tarawa",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "English",
-            "1": "Gilbertese"
-        },
+        "language": [
+            "English",
+            "Gilbertese"
+        ],
         "translations": {
             "de": "Kiribati",
             "es": "Kiribati",
@@ -4284,9 +4284,9 @@ define({
         "capital": "Kuwait\u0020City",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Kuwait",
             "es": "Kuwait",
@@ -4319,10 +4319,10 @@ define({
         "capital": "Bishkek",
         "region": "Asia",
         "subregion": "Central Asia",
-        "language": {
-            "0": "Kyrgyz",
-            "1": "Russian"
-        },
+        "language": [
+            "Kyrgyz",
+            "Russian"
+        ],
         "translations": {
             "de": "Kirgisistan",
             "es": "Kirguizist\u00e1n",
@@ -4357,9 +4357,9 @@ define({
         "capital": "Vientiane",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Lao"
-        },
+        "language": [
+            "Lao"
+        ],
         "translations": {
             "fr": "Laos",
             "nl": "Laos",
@@ -4395,9 +4395,9 @@ define({
         "capital": "Riga",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Latvian"
-        },
+        "language": [
+            "Latvian"
+        ],
         "translations": {
             "de": "Lettland",
             "es": "Letonia",
@@ -4432,10 +4432,10 @@ define({
         "capital": "Beirut",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic",
-            "1": "French"
-        },
+        "language": [
+            "Arabic",
+            "French"
+        ],
         "translations": {
             "de": "Libanon",
             "es": "L\u00edbano",
@@ -4469,10 +4469,10 @@ define({
         "capital": "Maseru",
         "region": "Africa",
         "subregion": "Southern Africa",
-        "language": {
-            "0": "Sesotho",
-            "1": "English"
-        },
+        "language": [
+            "Sesotho",
+            "English"
+        ],
         "translations": {
             "de": "Lesotho",
             "es": "Lesotho",
@@ -4504,9 +4504,9 @@ define({
         "capital": "Monrovia",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Liberia",
             "es": "Liberia",
@@ -4540,9 +4540,9 @@ define({
         "capital": "Tripoli",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Libyen",
             "es": "Libia",
@@ -4579,9 +4579,9 @@ define({
         "capital": "Vaduz",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "German"
-        },
+        "language": [
+            "German"
+        ],
         "translations": {
             "de": "Liechtenstein",
             "es": "Liechtenstein",
@@ -4614,9 +4614,9 @@ define({
         "capital": "Vilnius",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Lithuanian"
-        },
+        "language": [
+            "Lithuanian"
+        ],
         "translations": {
             "de": "Litauen",
             "es": "Lituania",
@@ -4651,11 +4651,11 @@ define({
         "capital": "Luxembourg",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "French",
-            "1": "German",
-            "2": "Luxembourgish"
-        },
+        "language": [
+            "French",
+            "German",
+            "Luxembourgish"
+        ],
         "translations": {
             "de": "Luxemburg",
             "es": "Luxemburgo",
@@ -4689,10 +4689,10 @@ define({
         "capital": "",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Traditional\u0020Chinese",
-            "1": "Portuguese"
-        },
+        "language": [
+            "Traditional\u0020Chinese",
+            "Portuguese"
+        ],
         "translations": {
             "de": "Macao",
             "es": "Macao",
@@ -4724,9 +4724,9 @@ define({
         "capital": "Skopje",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Macedonian"
-        },
+        "language": [
+            "Macedonian"
+        ],
         "translations": {
             "de": "Mazedonien",
             "es": "Macedonia",
@@ -4762,10 +4762,10 @@ define({
         "capital": "Antananarivo",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Malagasy",
-            "1": "French"
-        },
+        "language": [
+            "Malagasy",
+            "French"
+        ],
         "translations": {
             "de": "Madagaskar",
             "es": "Madagascar",
@@ -4795,10 +4795,10 @@ define({
         "capital": "Lilongwe",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Chichewa",
-            "1": "English"
-        },
+        "language": [
+            "Chichewa",
+            "English"
+        ],
         "translations": {
             "de": "Malawi",
             "es": "Malawi",
@@ -4832,9 +4832,9 @@ define({
         "capital": "Kuala\u0020Lumpur",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Malaysian"
-        },
+        "language": [
+            "Malaysian"
+        ],
         "translations": {
             "fr": "Malaisie",
             "nl": "Maleisi\u00eb",
@@ -4868,9 +4868,9 @@ define({
         "capital": "Mal\u00e9",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Maldivian"
-        },
+        "language": [
+            "Maldivian"
+        ],
         "translations": {
             "de": "Malediven",
             "es": "Maldivas",
@@ -4900,9 +4900,9 @@ define({
         "capital": "Bamako",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Mali",
             "es": "Mali",
@@ -4940,10 +4940,10 @@ define({
         "capital": "Valletta",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Maltese",
-            "1": "English"
-        },
+        "language": [
+            "Maltese",
+            "English"
+        ],
         "translations": {
             "de": "Malta",
             "es": "Malta",
@@ -4973,10 +4973,10 @@ define({
         "capital": "Majuro",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "Marshallese",
-            "1": "English"
-        },
+        "language": [
+            "Marshallese",
+            "English"
+        ],
         "translations": {
             "de": "Marshallinseln",
             "es": "Islas\u0020Marshall",
@@ -5006,9 +5006,9 @@ define({
         "capital": "Fort\u002dde\u002dFrance",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Martinique",
             "es": "Martinica",
@@ -5038,9 +5038,9 @@ define({
         "capital": "Nouakchott",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Mauretanien",
             "es": "Mauritania",
@@ -5075,9 +5075,9 @@ define({
         "capital": "Port\u0020Louis",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Mauritius",
             "es": "Mauricio",
@@ -5107,9 +5107,9 @@ define({
         "capital": "Mamoudzou",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Mayotte",
             "es": "Mayotte",
@@ -5139,9 +5139,9 @@ define({
         "capital": "Mexico\u0020City",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Mexiko",
             "es": "M\u00e9xico",
@@ -5175,9 +5175,9 @@ define({
         "capital": "Palikir",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Mikronesien",
             "es": "Micronesia",
@@ -5207,9 +5207,9 @@ define({
         "capital": "Chi\u0219in\u0103u",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Moldovan"
-        },
+        "language": [
+            "Moldovan"
+        ],
         "translations": {
             "de": "Moldawie",
             "es": "Moldavia",
@@ -5242,9 +5242,9 @@ define({
         "capital": "Monaco",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Monaco",
             "es": "M\u00f3naco",
@@ -5276,9 +5276,9 @@ define({
         "capital": "Ulan\u0020Bator",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Mongolian"
-        },
+        "language": [
+            "Mongolian"
+        ],
         "translations": {
             "de": "Mongolei",
             "es": "Mongolia",
@@ -5311,9 +5311,9 @@ define({
         "capital": "Podgorica",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Montenegrin"
-        },
+        "language": [
+            "Montenegrin"
+        ],
         "translations": {
             "de": "Montenegro",
             "es": "Montenegro",
@@ -5349,9 +5349,9 @@ define({
         "capital": "Plymouth",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Montserrat",
             "es": "Montserrat",
@@ -5381,10 +5381,10 @@ define({
         "capital": "Rabat",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Arabic",
-            "1": "Berber"
-        },
+        "language": [
+            "Arabic",
+            "Berber"
+        ],
         "translations": {
             "de": "Marokko",
             "es": "Marruecos",
@@ -5418,9 +5418,9 @@ define({
         "capital": "Maputo",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "de": "Mosambik",
             "es": "Mozambique",
@@ -5457,9 +5457,9 @@ define({
         "capital": "Naypyidaw",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Burmese"
-        },
+        "language": [
+            "Burmese"
+        ],
         "translations": {
             "fr": "Myanmar",
             "nl": "Myanmar",
@@ -5496,9 +5496,9 @@ define({
         "capital": "Windhoek",
         "region": "Africa",
         "subregion": "Southern Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Namibia",
             "es": "Namibia",
@@ -5533,10 +5533,10 @@ define({
         "capital": "Yaren",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "Nauruan",
-            "1": "English"
-        },
+        "language": [
+            "Nauruan",
+            "English"
+        ],
         "translations": {
             "de": "Nauru",
             "es": "Nauru",
@@ -5566,9 +5566,9 @@ define({
         "capital": "Kathmandu",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Nepali"
-        },
+        "language": [
+            "Nepali"
+        ],
         "translations": {
             "de": "N\u00e9pal",
             "es": "Nepal",
@@ -5601,9 +5601,9 @@ define({
         "capital": "Amsterdam",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "Dutch"
-        },
+        "language": [
+            "Dutch"
+        ],
         "translations": {
             "de": "Niederlande",
             "es": "Pa\u00edses\u0020Bajos",
@@ -5636,9 +5636,9 @@ define({
         "capital": "Noum\u00e9a",
         "region": "Oceania",
         "subregion": "Melanesia",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Neukaledonien",
             "es": "Nueva\u0020Caledonia",
@@ -5668,11 +5668,11 @@ define({
         "capital": "Wellington",
         "region": "Oceania",
         "subregion": "Australia and New Zealand",
-        "language": {
-            "0": "English",
-            "1": "M\u0101ori",
-            "2": "New\u0020Zealand\u0020Sign\u0020Language"
-        },
+        "language": [
+            "English",
+            "M\u0101ori",
+            "New\u0020Zealand\u0020Sign\u0020Language"
+        ],
         "translations": {
             "fr": "Nouvelle\u002dZ\u00e9lande",
             "nl": "Nieuw\u002dZeeland",
@@ -5702,9 +5702,9 @@ define({
         "capital": "Managua",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Nicaragua",
             "es": "Nicaragua",
@@ -5737,9 +5737,9 @@ define({
         "capital": "Niamey",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Niger",
             "es": "N\u00edger",
@@ -5777,9 +5777,9 @@ define({
         "capital": "Abuja",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Nigeria",
             "es": "Nigeria",
@@ -5814,10 +5814,10 @@ define({
         "capital": "Alofi",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "Niuean",
-            "1": "English"
-        },
+        "language": [
+            "Niuean",
+            "English"
+        ],
         "translations": {
             "de": "Niue",
             "es": "Niue",
@@ -5847,10 +5847,10 @@ define({
         "capital": "Kingston",
         "region": "Oceania",
         "subregion": "Australia and New Zealand",
-        "language": {
-            "0": "English",
-            "1": "Norfuk"
-        },
+        "language": [
+            "English",
+            "Norfuk"
+        ],
         "translations": {
             "fr": "\u00cele\u0020de\u0020Norfolk",
             "nl": "Norfolkeiland",
@@ -5880,9 +5880,9 @@ define({
         "capital": "Pyongyang",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Korean"
-        },
+        "language": [
+            "Korean"
+        ],
         "translations": {
             "de": "Nordkorea",
             "es": "Corea\u0020del\u0020Norte",
@@ -5916,11 +5916,11 @@ define({
         "capital": "Saipan",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "English",
-            "1": "Chamorro",
-            "2": "Carolinian"
-        },
+        "language": [
+            "English",
+            "Chamorro",
+            "Carolinian"
+        ],
         "translations": {
             "de": "N\u00f6rdliche\u0020Marianen",
             "es": "Islas\u0020Marianas\u0020del\u0020Norte",
@@ -5950,11 +5950,11 @@ define({
         "capital": "Oslo",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Norwegian",
-            "1": "Bokm\u00e5l",
-            "2": "Nynorsk"
-        },
+        "language": [
+            "Norwegian",
+            "Bokm\u00e5l",
+            "Nynorsk"
+        ],
         "translations": {
             "de": "Norwegen",
             "es": "Noruega",
@@ -5988,9 +5988,9 @@ define({
         "capital": "Muscat",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Oman",
             "es": "Om\u00e1n",
@@ -6024,10 +6024,10 @@ define({
         "capital": "Islamabad",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "English",
-            "1": "Urdu"
-        },
+        "language": [
+            "English",
+            "Urdu"
+        ],
         "translations": {
             "de": "Pakistan",
             "es": "Pakist\u00e1n",
@@ -6062,10 +6062,10 @@ define({
         "capital": "Ngerulmud",
         "region": "Oceania",
         "subregion": "Micronesia",
-        "language": {
-            "0": "English",
-            "1": "Palauan"
-        },
+        "language": [
+            "English",
+            "Palauan"
+        ],
         "translations": {
             "de": "Palau",
             "es": "Palau",
@@ -6095,9 +6095,9 @@ define({
         "capital": "Ramallah",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Pal\u00e4stina",
             "es": "Palestina",
@@ -6132,9 +6132,9 @@ define({
         "capital": "Panama\u0020City",
         "region": "Americas",
         "subregion": "Central America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Panama",
             "es": "Panam\u00e1",
@@ -6167,11 +6167,11 @@ define({
         "capital": "Port\u0020Moresby",
         "region": "Oceania",
         "subregion": "Melanesia",
-        "language": {
-            "0": "Hiri\u0020Motu",
-            "1": "Tok\u0020Pisin",
-            "2": "English"
-        },
+        "language": [
+            "Hiri\u0020Motu",
+            "Tok\u0020Pisin",
+            "English"
+        ],
         "translations": {
             "de": "Papua\u002dNeuguinea",
             "es": "Pap\u00faa\u0020Nueva\u0020Guinea",
@@ -6203,10 +6203,10 @@ define({
         "capital": "Asunci\u00f3n",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish",
-            "1": "Guaran\u00ed"
-        },
+        "language": [
+            "Spanish",
+            "Guaran\u00ed"
+        ],
         "translations": {
             "de": "Paraguay",
             "es": "Paraguay",
@@ -6240,11 +6240,11 @@ define({
         "capital": "Lima",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish",
-            "1": "Quechua",
-            "2": "Aymara"
-        },
+        "language": [
+            "Spanish",
+            "Quechua",
+            "Aymara"
+        ],
         "translations": {
             "de": "Peru",
             "es": "Per\u00fa",
@@ -6280,10 +6280,10 @@ define({
         "capital": "Manila",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Filipino",
-            "1": "English"
-        },
+        "language": [
+            "Filipino",
+            "English"
+        ],
         "translations": {
             "fr": "Philippines",
             "nl": "Filipijnen",
@@ -6313,9 +6313,9 @@ define({
         "capital": "Adamstown",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Pitcairn",
             "es": "Islas\u0020Pitcairn",
@@ -6345,9 +6345,9 @@ define({
         "capital": "Warsaw",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Polish"
-        },
+        "language": [
+            "Polish"
+        ],
         "translations": {
             "de": "Polen",
             "es": "Polonia",
@@ -6385,9 +6385,9 @@ define({
         "capital": "Lisbon",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "de": "Portugal",
             "es": "Portugal",
@@ -6420,10 +6420,10 @@ define({
         "capital": "San\u0020Juan",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Spanish",
-            "1": "English"
-        },
+        "language": [
+            "Spanish",
+            "English"
+        ],
         "translations": {
             "de": "Puerto\u0020Rico",
             "es": "Puerto\u0020Rico",
@@ -6453,9 +6453,9 @@ define({
         "capital": "Doha",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Katar",
             "es": "Catar",
@@ -6489,10 +6489,10 @@ define({
         "capital": "Pristina",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Albanian",
-            "1": "Serbian"
-        },
+        "language": [
+            "Albanian",
+            "Serbian"
+        ],
         "translations": {
             "es": "Kosovo",
             "hr": "Kosovo"
@@ -6522,9 +6522,9 @@ define({
         "capital": "Saint\u002dDenis",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "R\u00e9union",
             "es": "Reuni\u00f3n",
@@ -6554,9 +6554,9 @@ define({
         "capital": "Bucharest",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Romanian"
-        },
+        "language": [
+            "Romanian"
+        ],
         "translations": {
             "de": "Rum\u00e4nien",
             "es": "Rumania",
@@ -6592,9 +6592,9 @@ define({
         "capital": "Moscow",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Russian"
-        },
+        "language": [
+            "Russian"
+        ],
         "translations": {
             "de": "Russland",
             "es": "Rusia",
@@ -6639,11 +6639,11 @@ define({
         "capital": "Kigali",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Kinyarwanda",
-            "1": "French",
-            "2": "English"
-        },
+        "language": [
+            "Kinyarwanda",
+            "French",
+            "English"
+        ],
         "translations": {
             "de": "Ruanda",
             "es": "Ruanda",
@@ -6678,9 +6678,9 @@ define({
         "capital": "Gustavia",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Saint\u002dBarth\u00e9lemy",
             "es": "San\u0020Bartolom\u00e9",
@@ -6710,9 +6710,9 @@ define({
         "capital": "Jamestown",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Sankt\u0020Helena",
             "es": "Santa\u0020Helena",
@@ -6742,9 +6742,9 @@ define({
         "capital": "Basseterre",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "St\u002e\u0020Kitts\u0020und\u0020Nevis",
             "es": "San\u0020Crist\u00f3bal\u0020y\u0020Nieves",
@@ -6774,9 +6774,9 @@ define({
         "capital": "Castries",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Saint\u0020Lucia",
             "es": "Santa\u0020Luc\u00eda",
@@ -6806,9 +6806,9 @@ define({
         "capital": "Marigot",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Saint\u0020Martin",
             "es": "Saint\u0020Martin",
@@ -6841,9 +6841,9 @@ define({
         "capital": "Saint\u002dPierre",
         "region": "Americas",
         "subregion": "Northern America",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Saint\u002dPierre\u0020und\u0020Miquelon",
             "es": "San\u0020Pedro\u0020y\u0020Miquel\u00f3n",
@@ -6873,9 +6873,9 @@ define({
         "capital": "Kingstown",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Saint\u0020Vincent\u0020und\u0020die\u0020Grenadinen",
             "es": "San\u0020Vicente\u0020y\u0020Granadinas",
@@ -6905,10 +6905,10 @@ define({
         "capital": "Apia",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "Samoan",
-            "1": "English"
-        },
+        "language": [
+            "Samoan",
+            "English"
+        ],
         "translations": {
             "de": "Samoa",
             "es": "Samoa",
@@ -6938,9 +6938,9 @@ define({
         "capital": "City\u0020of\u0020San\u0020Marino",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Italian"
-        },
+        "language": [
+            "Italian"
+        ],
         "translations": {
             "de": "San\u0020Marino",
             "es": "San\u0020Marino",
@@ -6972,9 +6972,9 @@ define({
         "capital": "S\u00e3o\u0020Tom\u00e9",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "Portuguese"
-        },
+        "language": [
+            "Portuguese"
+        ],
         "translations": {
             "de": "S\u00e3o\u0020Tom\u00e9\u0020und\u0020Pr\u00edncipe",
             "es": "Santo\u0020Tom\u00e9\u0020y\u0020Pr\u00edncipe",
@@ -7004,9 +7004,9 @@ define({
         "capital": "Riyadh",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Saudi\u002dArabien",
             "es": "Arabia\u0020Saud\u00ed",
@@ -7044,9 +7044,9 @@ define({
         "capital": "Dakar",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Senegal",
             "es": "Senegal",
@@ -7082,9 +7082,9 @@ define({
         "capital": "Belgrade",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Serbian"
-        },
+        "language": [
+            "Serbian"
+        ],
         "translations": {
             "de": "Serbien",
             "es": "Serbia",
@@ -7123,11 +7123,11 @@ define({
         "capital": "Victoria",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "French",
-            "1": "English",
-            "2": "Seychellois\u0020Creole"
-        },
+        "language": [
+            "French",
+            "English",
+            "Seychellois\u0020Creole"
+        ],
         "translations": {
             "de": "Seychellen",
             "es": "Seychelles",
@@ -7157,9 +7157,9 @@ define({
         "capital": "Freetown",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Sierra\u0020Leone",
             "es": "Sierra\u0020Leone",
@@ -7192,12 +7192,12 @@ define({
         "capital": "Singapore",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "English",
-            "1": "Malay",
-            "2": "Mandarin",
-            "3": "Tamil"
-        },
+        "language": [
+            "English",
+            "Malay",
+            "Mandarin",
+            "Tamil"
+        ],
         "translations": {
             "fr": "Singapour",
             "nl": "Singapore",
@@ -7227,10 +7227,10 @@ define({
         "capital": "Philipsburg",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "Dutch",
-            "1": "English"
-        },
+        "language": [
+            "Dutch",
+            "English"
+        ],
         "translations": {
             "nl": "Sint\u0020Maarten"
         },
@@ -7256,9 +7256,9 @@ define({
         "capital": "Bratislava",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Slovak"
-        },
+        "language": [
+            "Slovak"
+        ],
         "translations": {
             "de": "Slowakei",
             "es": "Rep\u00fablica\u0020Eslovaca",
@@ -7294,9 +7294,9 @@ define({
         "capital": "Ljubljana",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Slovene"
-        },
+        "language": [
+            "Slovene"
+        ],
         "translations": {
             "de": "Slowenien",
             "es": "Eslovenia",
@@ -7331,9 +7331,9 @@ define({
         "capital": "Honiara",
         "region": "Oceania",
         "subregion": "Melanesia",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Salomonen",
             "es": "Islas\u0020Salom\u00f3n",
@@ -7363,10 +7363,10 @@ define({
         "capital": "Mogadishu",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Somali",
-            "1": "Arabic"
-        },
+        "language": [
+            "Somali",
+            "Arabic"
+        ],
         "translations": {
             "de": "Somalia",
             "es": "Somalia",
@@ -7400,19 +7400,19 @@ define({
         "capital": "Pretoria",
         "region": "Africa",
         "subregion": "Southern Africa",
-        "language": {
-            "0": "Afrikaans",
-            "1": "English",
-            "2": "Southern\u0020Ndebele",
-            "3": "Northern\u0020Sotho",
-            "4": "Southern\u0020Sotho",
-            "5": "Swazi",
-            "6": "Tsonga",
-            "7": "Tswana",
-            "8": "Venda",
-            "9": "Xhosa",
-            "10": "Zulu"
-        },
+        "language": [
+            "Afrikaans",
+            "English",
+            "Southern\u0020Ndebele",
+            "Northern\u0020Sotho",
+            "Southern\u0020Sotho",
+            "Swazi",
+            "Tsonga",
+            "Tswana",
+            "Venda",
+            "Xhosa",
+            "Zulu"
+        ],
         "translations": {
             "de": "Republik\u0020S\u00fcdafrika",
             "es": "Rep\u00fablica\u0020de\u0020Sud\u00e1frica",
@@ -7449,9 +7449,9 @@ define({
         "capital": "King\u0020Edward\u0020Point",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "S\u00fcdgeorgien\u0020und\u0020die\u0020S\u00fcdlichen\u0020Sandwichinseln",
             "es": "Islas\u0020Georgias\u0020del\u0020Sur\u0020y\u0020Sandwich\u0020del\u0020Sur",
@@ -7481,9 +7481,9 @@ define({
         "capital": "Seoul",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Korean"
-        },
+        "language": [
+            "Korean"
+        ],
         "translations": {
             "de": "S\u00fcdkorea",
             "es": "Corea\u0020del\u0020Sur",
@@ -7515,9 +7515,9 @@ define({
         "capital": "Juba",
         "region": "Africa",
         "subregion": "Middle Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "fr": "Soudan\u0020du\u0020Sud",
             "nl": "Zuid\u002dSoedan",
@@ -7554,13 +7554,13 @@ define({
         "capital": "Madrid",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "language": {
-            "0": "Spanish",
-            "1": "Basque",
-            "2": "Catalan",
-            "3": "Galician",
-            "4": "Occitan"
-        },
+        "language": [
+            "Spanish",
+            "Basque",
+            "Catalan",
+            "Galician",
+            "Occitan"
+        ],
         "translations": {
             "de": "Spanien",
             "es": "Espa\u00f1a",
@@ -7596,10 +7596,10 @@ define({
         "capital": "Colombo",
         "region": "Asia",
         "subregion": "Southern Asia",
-        "language": {
-            "0": "Sinhala",
-            "1": "Tamil"
-        },
+        "language": [
+            "Sinhala",
+            "Tamil"
+        ],
         "translations": {
             "de": "Sri\u0020Lanka",
             "es": "Sri\u0020Lanka",
@@ -7631,10 +7631,10 @@ define({
         "capital": "Khartoum",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Arabic",
-            "1": "English"
-        },
+        "language": [
+            "Arabic",
+            "English"
+        ],
         "translations": {
             "de": "Sudan",
             "es": "Sud\u00e1n",
@@ -7672,9 +7672,9 @@ define({
         "capital": "Paramaribo",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Dutch"
-        },
+        "language": [
+            "Dutch"
+        ],
         "translations": {
             "de": "Suriname",
             "es": "Surinam",
@@ -7709,9 +7709,9 @@ define({
         "capital": "Longyearbyen",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Norwegian"
-        },
+        "language": [
+            "Norwegian"
+        ],
         "translations": {
             "de": "Svalbard\u0020und\u0020Jan\u0020Mayen",
             "es": "Islas\u0020Svalbard\u0020y\u0020Jan\u0020Mayen",
@@ -7741,10 +7741,10 @@ define({
         "capital": "Lobamba",
         "region": "Africa",
         "subregion": "Southern Africa",
-        "language": {
-            "0": "Swazi",
-            "1": "English"
-        },
+        "language": [
+            "Swazi",
+            "English"
+        ],
         "translations": {
             "de": "Swasiland",
             "es": "Suazilandia",
@@ -7777,9 +7777,9 @@ define({
         "capital": "Stockholm",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "Swedish"
-        },
+        "language": [
+            "Swedish"
+        ],
         "translations": {
             "de": "Schweden",
             "es": "Suecia",
@@ -7814,12 +7814,12 @@ define({
         "capital": "Bern",
         "region": "Europe",
         "subregion": "Western Europe",
-        "language": {
-            "0": "German",
-            "1": "French",
-            "2": "Italian",
-            "3": "Romansh"
-        },
+        "language": [
+            "German",
+            "French",
+            "Italian",
+            "Romansh"
+        ],
         "translations": {
             "de": "Schweiz",
             "es": "Suiza",
@@ -7855,9 +7855,9 @@ define({
         "capital": "Damascus",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Syrien",
             "es": "Siria",
@@ -7893,9 +7893,9 @@ define({
         "capital": "Taipei",
         "region": "Asia",
         "subregion": "Eastern Asia",
-        "language": {
-            "0": "Standard\u0020Chinese"
-        },
+        "language": [
+            "Standard\u0020Chinese"
+        ],
         "translations": {
             "de": "Taiwan",
             "es": "Taiw\u00e1n",
@@ -7925,9 +7925,9 @@ define({
         "capital": "Dushanbe",
         "region": "Asia",
         "subregion": "Central Asia",
-        "language": {
-            "0": "Tajik"
-        },
+        "language": [
+            "Tajik"
+        ],
         "translations": {
             "de": "Tadschikistan",
             "es": "Tayikist\u00e1n",
@@ -7962,10 +7962,10 @@ define({
         "capital": "Dodoma",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Swahili",
-            "1": "English"
-        },
+        "language": [
+            "Swahili",
+            "English"
+        ],
         "translations": {
             "de": "Tansania",
             "es": "Tanzania",
@@ -8004,9 +8004,9 @@ define({
         "capital": "Bangkok",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Thai"
-        },
+        "language": [
+            "Thai"
+        ],
         "translations": {
             "fr": "Tha\u00eflande",
             "nl": "Thailand",
@@ -8041,10 +8041,10 @@ define({
         "capital": "Dili",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Portuguese",
-            "1": "Tetum"
-        },
+        "language": [
+            "Portuguese",
+            "Tetum"
+        ],
         "translations": {
             "fr": "Timor\u0020oriental",
             "nl": "Oost\u002dTimor",
@@ -8076,9 +8076,9 @@ define({
         "capital": "Lom\u00e9",
         "region": "Africa",
         "subregion": "Western Africa",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Togo",
             "es": "Togo",
@@ -8112,11 +8112,11 @@ define({
         "capital": "Fakaofo",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "Tokelauan",
-            "1": "English",
-            "2": "Samoan"
-        },
+        "language": [
+            "Tokelauan",
+            "English",
+            "Samoan"
+        ],
         "translations": {
             "de": "Tokelau",
             "es": "Islas\u0020Tokelau",
@@ -8146,10 +8146,10 @@ define({
         "capital": "Nuku\u0027alofa",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "Tongan",
-            "1": "English"
-        },
+        "language": [
+            "Tongan",
+            "English"
+        ],
         "translations": {
             "de": "Tonga",
             "es": "Tonga",
@@ -8179,9 +8179,9 @@ define({
         "capital": "Port\u0020of\u0020Spain",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Trinidad\u0020und\u0020Tobago",
             "es": "Trinidad\u0020y\u0020Tobago",
@@ -8211,9 +8211,9 @@ define({
         "capital": "Tunis",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Tunesien",
             "es": "T\u00fanez",
@@ -8246,9 +8246,9 @@ define({
         "capital": "Ankara",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Turkish"
-        },
+        "language": [
+            "Turkish"
+        ],
         "translations": {
             "de": "T\u00fcrkei",
             "es": "Turqu\u00eda",
@@ -8287,9 +8287,9 @@ define({
         "capital": "Ashgabat",
         "region": "Asia",
         "subregion": "Central Asia",
-        "language": {
-            "0": "Turkmen"
-        },
+        "language": [
+            "Turkmen"
+        ],
         "translations": {
             "de": "Turkmenistan",
             "es": "Turkmenist\u00e1n",
@@ -8324,9 +8324,9 @@ define({
         "capital": "Cockburn\u0020Town",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Turks\u002d\u0020und\u0020Caicosinseln",
             "es": "Islas\u0020Turks\u0020y\u0020Caicos",
@@ -8356,10 +8356,10 @@ define({
         "capital": "Funafuti",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "Tuvaluan",
-            "1": "English"
-        },
+        "language": [
+            "Tuvaluan",
+            "English"
+        ],
         "translations": {
             "de": "Tuvalu",
             "es": "Tuvalu",
@@ -8389,10 +8389,10 @@ define({
         "capital": "Kampala",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "English",
-            "1": "Swahili"
-        },
+        "language": [
+            "English",
+            "Swahili"
+        ],
         "translations": {
             "de": "Uganda",
             "es": "Uganda",
@@ -8428,9 +8428,9 @@ define({
         "capital": "Kiev",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "language": {
-            "0": "Ukrainian"
-        },
+        "language": [
+            "Ukrainian"
+        ],
         "translations": {
             "de": "Ukraine",
             "es": "Ucrania",
@@ -8468,9 +8468,9 @@ define({
         "capital": "Abu\u0020Dhabi",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Vereinigte\u0020Arabische\u0020Emirate",
             "es": "Emiratos\u0020\u00c1rabes\u0020Unidos",
@@ -8503,9 +8503,9 @@ define({
         "capital": "London",
         "region": "Europe",
         "subregion": "Northern Europe",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Vereinigtes\u0020K\u00f6nigreich",
             "es": "Reino\u0020Unido",
@@ -8539,9 +8539,9 @@ define({
         "capital": "Washington\u0020D\u002eC\u002e",
         "region": "Americas",
         "subregion": "Northern America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Vereinigte\u0020Staaten\u0020von\u0020Amerika",
             "es": "Estados\u0020Unidos",
@@ -8574,9 +8574,9 @@ define({
         "capital": "",
         "region": "Americas",
         "subregion": "Northern America",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Kleinere\u0020Inselbesitzungen\u0020der\u0020Vereinigten\u0020Staaten",
             "es": "Islas\u0020Ultramarinas\u0020Menores\u0020de\u0020Estados\u0020Unidos",
@@ -8603,9 +8603,9 @@ define({
         "capital": "Charlotte\u0020Amalie",
         "region": "Americas",
         "subregion": "Caribbean",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Amerikanische\u0020Jungferninseln",
             "es": "Islas\u0020V\u00edrgenes\u0020de\u0020los\u0020Estados\u0020Unidos",
@@ -8636,9 +8636,9 @@ define({
         "capital": "Montevideo",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Uruguay",
             "es": "Uruguay",
@@ -8671,9 +8671,9 @@ define({
         "capital": "Tashkent",
         "region": "Asia",
         "subregion": "Central Asia",
-        "language": {
-            "0": "Uzbek"
-        },
+        "language": [
+            "Uzbek"
+        ],
         "translations": {
             "de": "Usbekistan",
             "es": "Uzbekist\u00e1n",
@@ -8709,11 +8709,11 @@ define({
         "capital": "Port\u0020Vila",
         "region": "Oceania",
         "subregion": "Melanesia",
-        "language": {
-            "0": "Bislama",
-            "1": "French",
-            "2": "English"
-        },
+        "language": [
+            "Bislama",
+            "French",
+            "English"
+        ],
         "translations": {
             "de": "Vanuatu",
             "es": "Vanuatu",
@@ -8743,9 +8743,9 @@ define({
         "capital": "Caracas",
         "region": "Americas",
         "subregion": "South America",
-        "language": {
-            "0": "Spanish"
-        },
+        "language": [
+            "Spanish"
+        ],
         "translations": {
             "de": "Venezuela",
             "es": "Venezuela",
@@ -8779,9 +8779,9 @@ define({
         "capital": "Hanoi",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "language": {
-            "0": "Vietnamese"
-        },
+        "language": [
+            "Vietnamese"
+        ],
         "translations": {
             "fr": "Vi\u00eat\u0020Nam",
             "nl": "Vietnam",
@@ -8815,9 +8815,9 @@ define({
         "capital": "Mata\u002dUtu",
         "region": "Oceania",
         "subregion": "Polynesia",
-        "language": {
-            "0": "French"
-        },
+        "language": [
+            "French"
+        ],
         "translations": {
             "de": "Wallis\u0020und\u0020Futuna",
             "es": "Wallis\u0020y\u0020Futuna",
@@ -8849,11 +8849,11 @@ define({
         "capital": "El\u0020Aai\u00fan",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "language": {
-            "0": "Berber",
-            "1": "Hassaniya",
-            "2": "Spanish"
-        },
+        "language": [
+            "Berber",
+            "Hassaniya",
+            "Spanish"
+        ],
         "translations": {
             "de": "Westsahara",
             "es": "Sahara\u0020Occidental",
@@ -8887,9 +8887,9 @@ define({
         "capital": "Sana\u0027a",
         "region": "Asia",
         "subregion": "Western Asia",
-        "language": {
-            "0": "Arabic"
-        },
+        "language": [
+            "Arabic"
+        ],
         "translations": {
             "de": "Jemen",
             "es": "Yemen",
@@ -8922,9 +8922,9 @@ define({
         "capital": "Lusaka",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "English"
-        },
+        "language": [
+            "English"
+        ],
         "translations": {
             "de": "Sambia",
             "es": "Zambia",
@@ -8963,24 +8963,24 @@ define({
         "capital": "Harare",
         "region": "Africa",
         "subregion": "Eastern Africa",
-        "language": {
-            "0": "Chewa",
-            "1": "Chibarwe",
-            "2": "English",
-            "3": "Kalanga",
-            "4": "Koisan",
-            "5": "Nambya",
-            "6": "Ndau",
-            "7": "Ndebele",
-            "8": "Shangani",
-            "9": "Shona",
-            "10": "Zimbabwean\u0020sign\u0020language",
-            "11": "Sotho",
-            "12": "Tonga",
-            "13": "Tswana",
-            "14": "Venda",
-            "15": "Xhosa"
-        },
+        "language": [
+            "Chewa",
+            "Chibarwe",
+            "English",
+            "Kalanga",
+            "Koisan",
+            "Nambya",
+            "Ndau",
+            "Ndebele",
+            "Shangani",
+            "Shona",
+            "Zimbabwean\u0020sign\u0020language",
+            "Sotho",
+            "Tonga",
+            "Tswana",
+            "Venda",
+            "Xhosa"
+        ],
         "translations": {
             "de": "Simbabwe",
             "es": "Zimbabue",

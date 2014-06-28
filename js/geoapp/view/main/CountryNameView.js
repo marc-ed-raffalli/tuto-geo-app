@@ -17,6 +17,8 @@ define([
         template: template['_countryNameView.hbs'],
 
         initialize: function(){
+            // Listen to the change event on the coutryName attribute of the Model
+            // render will be called every time the value of the countryName changes
             this.model.on('change:countryName', this.render, this);
         }
     });
