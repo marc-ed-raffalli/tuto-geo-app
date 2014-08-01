@@ -4,7 +4,7 @@
     </div>
     <div class="mr-geoappSide-countryInfo-body panel-body">
         {{#if countryInfo.capital}}<div class="lead text-center">{{countryInfo.capital}}</div>{{/if}}
-        {{#each countryInfo.language}}<div><em>{{this}}</em></div>{{/each}}
+        {{#each countryInfo.language}}<em>{{this}}</em>,{{/each}}
         <div class="row">
             {{#if countryInfo.area}}<span class="col-lg-12 col-md-12 col-sm-6"><small><abbr title="Surface area">A</abbr>:</small> {{countryInfo.area}} km&sup2;</span>{{/if}}
             {{#if countryInfo.currency}}<span class="col-lg-12 col-md-12 col-sm-6"><small><abbr title="Currency">Cur</abbr>:</small> {{countryInfo.currency}}</span>{{/if}}

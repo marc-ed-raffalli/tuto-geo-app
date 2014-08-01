@@ -6,12 +6,12 @@
  */
 /* global define */
 define([
-    'marionette',
-    'templates/mainTemplates'
-], function (Marionette, template) {
+    'backbone',
+    '../../controller/MapController'
+], function (Backbone, MapController) {
     'use strict';
 
-    return Marionette.ItemView.extend({
+    return  Backbone.Marionette.ItemView.extend({
 
         // Backbone automatically wrap the View into a div tag, we need that tag to be position relative and taking full height of its parent.
         // It is possible to specify the tag name and class name in the View and remove the root element of the template.
@@ -20,15 +20,15 @@ define([
         className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
-        template: template['_mapView.hbs'],
+        template: require('templates/main/_mapView.hbs'),
 
         // Set the ui elements that we will use
         ui: {
             map: '.mr-geoappMain-map'
         },
-
-        getMapElement: function () {
-            return this.ui.map;
+        onBeforeShow: function () {
+            var mapCtrl = new MapController();
+            mapCtrl.attachMapTo(this.ui.map.get(0));
         }
     });
 });

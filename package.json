@@ -1,0 +1,23 @@
+{
+    "name": "tuto-geo-app",
+    "version": "0.1.0",
+    "author": "Marc Ed Raffalli",
+    "dependencies": {
+    },
+    "engines": {
+        "node": ">=0.10.26"
+    },
+    "homepage": "https://github.com/chi-mai2b/tuto-geo-app",
+    "devDependencies": {
+        "webpack": "1.3.x",
+        "css-loader": "0.6.x",
+        "exports-loader": "^0.6.2",
+        "expose-loader": "^0.5.3",
+        "file-loader": "0.5.x",
+        "handlebars-loader": "0.1.x",
+        "imports-loader": "^0.6.3",
+        "less-loader": "0.7.x",
+        "style-loader": "0.6.x",
+        "url-loader": "0.5.x"
+    }
+}

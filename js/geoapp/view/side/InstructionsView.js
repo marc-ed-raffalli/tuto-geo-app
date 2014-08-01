@@ -19,16 +19,7 @@ define([
         className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
-        template: require('templates/side/_playerScoreView.hbs'),
+        template: require('templates/side/_instructionsView.hbs')
 
-        initialize: function () {
-            // Listen to the change event on the score attribute of the Model
-            // render will be called every time the value of the score changes
-            this.model.on('change:score', this.render, this);
-        },
-        onDestroy: function () {
-            console.log('score view destroyed');
-            this.model.off('change:score', this.render);
-        }
     });
 });

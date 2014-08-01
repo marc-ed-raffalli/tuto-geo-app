@@ -6,20 +6,23 @@
  */
 /* global define */
 define([
-    'marionette',
-    'templates/mainTemplates'
-], function (Marionette, template) {
+    'backbone'
+], function (Backbone) {
     'use strict';
 
-    return Marionette.ItemView.extend({
+    return  Backbone.Marionette.ItemView.extend({
 
         // set the template to use in this view, file name is used as identifier
-        template: template['_countryNameView.hbs'],
+        template: require('templates/main/_countryNameView.hbs'),
 
-        initialize: function(){
+        initialize: function () {
             // Listen to the change event on the coutryName attribute of the Model
             // render will be called every time the value of the countryName changes
             this.model.on('change:countryName', this.render, this);
+        },
+        onDestroy: function () {
+            console.log('countryName view destroyed');
+            this.model.off('change:countryName', this.render, this);
         }
     });
 });

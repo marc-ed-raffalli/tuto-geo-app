@@ -6,19 +6,18 @@
  */
 /* global define */
 define([
-    'marionette',
+    'backbone',
     './MainLayout',
-    './SideLayout',
-    'templates/appTemplates'
-], function (Marionette, MainLayout, SideLayout, template) {
+    './SideLayout'
+], function (Backbone, MainLayout, SideLayout) {
     'use strict';
 
-    return Marionette.Layout.extend({
+    return Backbone.Marionette.LayoutView.extend({
 
         className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
-        template: template['_geoAppLayout.hbs'],
+        template: require('templates/app/_geoAppLayout.hbs'),
 
         regions: {
             // split the application screen in two regions, identifier point to the element in the template

@@ -26,6 +26,10 @@ define([
             return this.get('score');
         },
         //---------------------------------------
+        getMode: function () {
+            return this.get('mode');
+        },
+        //---------------------------------------
         increaseCorrect: function () {
             scoreUpdate.call(this, 1, 0);
         },
@@ -35,6 +39,10 @@ define([
         //---------------------------------------
         setCountryName: function (countryName) {
             this.set('countryName', countryName);
+        },
+        //---------------------------------------
+        setMode: function (mode) {
+            this.set('mode', mode);
         },
         resetScore: function () {
             this.setScore({

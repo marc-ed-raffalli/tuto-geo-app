@@ -7,29 +7,32 @@
 /* global define */
 define([
     'marionette',
+    './GeoAppRouter',
     './controller/GameController',
     './layout/GeoAppLayout'
-], function (Marionette, GameController, GeoAppLayout) {  // getting Marionette dependency
+], function (Marionette, GeoAppRouter, GameController, GeoAppLayout) {  // getting Marionette dependency
     'use strict';
 
     var geoApp = new Marionette.Application(),      // instantiate new Marionette application
-        gameController = new GameController();
+        gameController = new GameController(),
+        appRouter = new GeoAppRouter();
 
     // define the application container, refers here to the #appContainer in index.html
     geoApp.addRegions({
         appContainer: '#appContainer'
     });
 
-    // We call start of the gamecontroller when the application starts
+    // instantiate and show the GeoAppLayout
+    geoApp.appContainer.show(new GeoAppLayout());
+
+    // geoApp.onStart: fires after the Application has started and after the initializers have been executed.
     //
     // see Marionette App events:
     // https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.application.md#application-event
     geoApp.onStart = function () {
-        gameController.startGame();
-    };
+        appRouter.startHistory();
 
-    // instantiate and show the GeoAppLayout
-    geoApp.appContainer.show(new GeoAppLayout());
+    };
 
     // return the application instance without calling start, start is called in the main.js
     // this allows later to create a more global application-manager and run multiple applications based on the #hash value

@@ -1,7 +1,7 @@
 /**
  * User: Marc Edouard Raffalli
  * Date: 27/03/14
- * Time: 18:41
+ * Time: 18:25
  * Website: http://marc-ed-raffalli.com/
  */
 /* global define */
@@ -18,17 +18,7 @@ define([
         // This css class name only provides the position and height.
         className: 'mr-geoapp-elt',
 
-        // set the template to use in this view, file name is used as identifier
-        template: require('templates/side/_playerScoreView.hbs'),
-
-        initialize: function () {
-            // Listen to the change event on the score attribute of the Model
-            // render will be called every time the value of the score changes
-            this.model.on('change:score', this.render, this);
-        },
-        onDestroy: function () {
-            console.log('score view destroyed');
-            this.model.off('change:score', this.render);
-        }
+        // set the template to use in this template, file name is used as identifier
+        template: require('templates/main/_introView.hbs')
     });
 });
