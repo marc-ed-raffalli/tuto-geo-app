@@ -7,11 +7,13 @@
 /* global define */
 define([
     'marionette',
+    'controller/GameController',
     './GeoAppRouter',
-    './controller/GameController',
     './layout/GeoAppLayout'
-], function (Marionette, GeoAppRouter, GameController, GeoAppLayout) {  // getting Marionette dependency
+], function (Marionette, GameController, GeoAppRouter, GeoAppLayout) {  // getting Marionette dependency
     'use strict';
+
+    require('./geoapp.less');
 
     var geoApp = new Marionette.Application(),      // instantiate new Marionette application
         gameController = new GameController(),

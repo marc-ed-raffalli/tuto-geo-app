@@ -7,11 +7,10 @@
 /* global define */
 define([
     'backbone',
-    'backbone.wreqr',
     '../model/GameModel',
     'data/countriesData',
     'data/worldGeoJson'
-], function (Backbone, Wreqr, GameModel, countriesData, worldGeoJson) {
+], function (Backbone, GameModel, countriesData, worldGeoJson) {
     'use strict';
 
     return Backbone.Marionette.Controller.extend({
@@ -27,8 +26,8 @@ define([
 
             // Use Backbone.Wreqr for the event mechanism
             // https://github.com/marionettejs/backbone.wreqr
-            var mapChannel = Wreqr.radio.channel('map'),
-                gameChannel = Wreqr.radio.channel('game');
+            var mapChannel = Backbone.Wreqr.radio.channel('map'),
+                gameChannel = Backbone.Wreqr.radio.channel('game');
 
             //-----------------------------------------------
             mapChannel.vent.on('countrySelected', countrySelected, this);
@@ -96,6 +95,7 @@ define([
 
     //----------------------------------------------------------------
     function evaluateAnswer(selectedCountryId) {
+        /*jshint validthis: true */
         if (this.currentId === selectedCountryId) {
             this.gameModel.increaseCorrect();
             this.selectNewCountry();
@@ -106,6 +106,7 @@ define([
 
     //----------------------------------------------------------------
     function setCountryInfoOnModel(countryId) {
+        /*jshint validthis: true */
         var newCountry = countriesData[countryId],
             countryData = {
                 capital: newCountry.capital,
@@ -120,10 +121,6 @@ define([
     //----------------------------------------------------------------
     function getRandomId() {
         /*jshint validthis: true */
-
-        // The jshint validthis: true is necessary when it will come to code quality testing using JSHint,
-        // This step will come at a later stage.
-
         var max = this.countriesIdArr.length,
             randomIndex = Math.floor(Math.random() * (max - 1));
         // Return a randomly selected country from the list.

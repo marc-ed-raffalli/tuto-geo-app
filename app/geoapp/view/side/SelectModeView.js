@@ -27,27 +27,22 @@ define([
             'relax': '.mr-geoappSide-selectModeRelax',
             'challenge': '.mr-geoappSide-selectModeChallenge'
         },
-        initialize: function () {
-            // Listen to the change event on the coutryName attribute of the Model
-            // render will be called every time the value of the countryName changes
-            this.model.on('change:mode', setCurrentMode, this);
+
+        modelEvents: {
+            'change:mode': 'setCurrentMode'
         },
-        onDestroy: function () {
-            this.model.off('change:mode', setCurrentMode, this);
+        onShow: function () {
+            this.setCurrentMode();
+        },
+        setCurrentMode: function () {
+            var mode = this.model.getMode();
+            if (this.currentMode !== mode && this.ui[mode]) {
+                if (this.currentMode && this.ui[this.currentMode]) {
+                    this.ui[this.currentMode].removeClass('disabled');
+                }
+                this.currentMode = mode;
+                this.ui[mode].addClass('disabled');
+            }
         }
     });
-
-    //----------------------------------------------------------------
-    //----------------------------------------------------------------
-
-    function setCurrentMode() {
-        var mode = this.model.getMode();
-        if (this.currentMode !== mode && this.ui[mode]) {
-            if (this.currentMode && this.ui[this.currentMode]) {
-                this.ui[this.currentMode].removeClass('disabled');
-            }
-            this.currentMode = mode;
-            this.ui[mode].addClass('disabled');
-        }
-    }
 });

@@ -6,8 +6,9 @@
  */
 /* global define */
 define([
-    'backbone'
-], function (Backbone) {
+    'backbone',
+    'controller/MapController'
+], function (Backbone, MapController) {
     'use strict';
 
     return  Backbone.Marionette.ItemView.extend({
@@ -19,16 +20,23 @@ define([
         className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
-        template: require('templates/side/_playerScoreView.hbs'),
+        template: require('templates/main/_mapView.hbs'),
 
-        initialize: function () {
-            // Listen to the change event on the score attribute of the Model
-            // render will be called every time the value of the score changes
-            this.model.on('change:score', this.render, this);
+        // Set the ui elements that we will use
+        ui: {
+            map: '.mr-geoappMain-map'
         },
-        onDestroy: function () {
-            console.log('score view destroyed');
-            this.model.off('change:score', this.render);
+        initialize: function () {
+            this._mapCtrl = new MapController();
+            Backbone.Wreqr.radio.vent.on('map', 'resize', this.mapResize, this);
+        },
+        mapResize: function () {
+            this._mapCtrl.invalidateSize(this.map);
+        },
+        onBeforeShow: function () {
+            this.map = this._mapCtrl.getMap(this.ui.map.get(0));
+            this._mapCtrl.addLayerMapTile(this.map);
+            this._mapCtrl.addLayerGeoJson(this.map);
         }
     });
 });

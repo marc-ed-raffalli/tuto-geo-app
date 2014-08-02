@@ -7,12 +7,11 @@
 /* global define */
 define([
     'backbone',
-    'backbone.wreqr',
     'region/main/HeaderRegion',
     'view/main/IntroView',
     'view/main/CountryNameView',
     'view/main/MapView'
-], function (Backbone, Wreqr, HeaderRegion, IntroView, CountryNameView, MapView) {
+], function (Backbone, HeaderRegion, IntroView, CountryNameView, MapView) {
     'use strict';
 
     return Backbone.Marionette.LayoutView.extend({
@@ -32,7 +31,9 @@ define([
             bodyRegion: '.mr-geoappMain-bodyHolder'
         },
         initialize: function () {
-            var gameChannel = Wreqr.radio.channel('game');
+            this.mapView = new MapView();
+
+            var gameChannel = Backbone.Wreqr.radio.channel('game');
             gameChannel.vent.on('intro', this.displayIntro, this);
             gameChannel.vent.on('mode', this.displayGame, this);
 
@@ -41,18 +42,20 @@ define([
             this.gameModel = gameChannel.reqres.request('gameModel');
         },
         onShow: function () {
-            this.mapView = new MapView();
             this.bodyRegion.show(this.mapView);
         },
         displayIntro: function () {
             this.headerRegion.show(new IntroView());
             this.bodyRegion.$el.addClass('mr-geoappMain-bodyHolder_reduced');
+            this.headerRegion.$el.addClass('mr-geoappMain-headerHolder_large');
             this._isGameMode = false;
         },
         displayGame: function () {
             if (!this._isGameMode) {
                 this.headerRegion.show(new CountryNameView({model: this.gameModel}));
                 this.bodyRegion.$el.removeClass('mr-geoappMain-bodyHolder_reduced');
+                this.headerRegion.$el.removeClass('mr-geoappMain-headerHolder_large');
+                Backbone.Wreqr.radio.vent.trigger('map', 'resize');
                 this._isGameMode = true;
             }
         }

@@ -1,9 +1,8 @@
 module.exports = {
     context: __dirname,
-    entry: './js/main.js',
+    entry: './app/main.js',
     output: {
-        path: './dist',
-        filename: 'geoapp.js'
+        filename: './dist/geoapp.js'
     },
     module: {
         loaders: [
@@ -33,11 +32,12 @@ module.exports = {
             'marionette': __dirname + '/vendor/marionette/backbone.marionette.js',
             'leaflet': __dirname + '/vendor/leaflet/js/leaflet.js',
 
-            'GeoApp': __dirname + '/js/geoapp/GeoApp.js',
-            'templates': __dirname + '/js/geoapp/templates',
-            'view': __dirname + '/js/geoapp/view',
-            'region': __dirname + '/js/geoapp/region',
-            'data': __dirname + '/js/geoapp/data',
+            'GeoApp': __dirname + '/app/geoapp/GeoApp.js',
+            'templates': __dirname + '/app/geoapp/templates',
+            'view': __dirname + '/app/geoapp/view',
+            'region': __dirname + '/app/geoapp/region',
+            'controller': __dirname + '/app/geoapp/controller',
+            'data': __dirname + '/app/geoapp/data',
             'style': __dirname + '/style',
             'vendor': __dirname + '/vendor'
         }

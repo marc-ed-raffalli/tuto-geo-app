@@ -7,12 +7,11 @@
 /* global define */
 define([
     'backbone',
-    'backbone.wreqr',
     'leaflet'
-], function (Backbone, Wreqr, Leaflet) {
+], function (Backbone, Leaflet) {
     'use strict';
 
-    var mapServiceUrl = 'http://{s}.tiles.mapbox.com/v3/YOUR-MAP-ID/{z}/{x}/{y}.png',
+    var mapServiceUrl = 'http://{s}.tiles.mapbox.com/v3/raffalli.i3ip4bic/{z}/{x}/{y}.png',
         defaultMaxZoom = 8,
         defaultMapParams = {
             center: [50, 0],    // center the map over Europe region
@@ -61,7 +60,7 @@ define([
             // https://github.com/marionettejs/backbone.wreqr
             //
             // we select a channel that will be dedicated to the map events
-            var mapChannel = Wreqr.radio.channel('map'),
+            var mapChannel = Backbone.Wreqr.radio.channel('map'),
                 geoJsonData = mapChannel.reqres.request('mapGeoJson'),
                 onEachFeature = function (feature, layer) {
                     layer.on({
@@ -79,15 +78,21 @@ define([
                     onEachFeature: onEachFeature
                 });
 
-
             this._tileLayer = Leaflet.tileLayer(mapServiceUrl);
             this._geoJsonLayer = geoJsonLayer;
         },
         //----------------------------------------------------------------
-        attachMapTo: function (elt) {
-            var map = Leaflet.map(elt, defaultMapParams);
-            this._tileLayer.addTo(map);
-            this._geoJsonLayer.addTo(map);
+        getMap: function (elt) {
+            return Leaflet.map(elt, defaultMapParams);
+        },
+        invalidateSize: function (map) {
+            map.invalidateSize();
+        },
+        addLayerMapTile: function (map) {
+            map.addLayer(this._tileLayer, true);
+        },
+        addLayerGeoJson: function (map) {
+            map.addLayer(this._geoJsonLayer);
         }
     });
 

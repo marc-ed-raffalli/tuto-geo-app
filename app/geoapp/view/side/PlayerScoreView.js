@@ -6,9 +6,8 @@
  */
 /* global define */
 define([
-    'backbone',
-    '../../controller/MapController'
-], function (Backbone, MapController) {
+    'backbone'
+], function (Backbone) {
     'use strict';
 
     return  Backbone.Marionette.ItemView.extend({
@@ -20,15 +19,10 @@ define([
         className: 'mr-geoapp-elt',
 
         // set the template to use in this view, file name is used as identifier
-        template: require('templates/main/_mapView.hbs'),
+        template: require('templates/side/_playerScoreView.hbs'),
 
-        // Set the ui elements that we will use
-        ui: {
-            map: '.mr-geoappMain-map'
-        },
-        onBeforeShow: function () {
-            var mapCtrl = new MapController();
-            mapCtrl.attachMapTo(this.ui.map.get(0));
+        modelEvents: {
+            'change:score': 'render'
         }
     });
 });
