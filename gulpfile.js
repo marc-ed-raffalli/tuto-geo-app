@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    clean = require('gulp-clean'),
+    rimraf = require('gulp-rimraf'),
     uglify = require('gulp-uglify'),
     jshint = require('gulp-jshint'),
     webpack = require('gulp-webpack');
@@ -12,7 +12,7 @@ var bases = {
 // Delete the dist directory
 gulp.task('clean', function () {
     return gulp.src(bases.dist)
-        .pipe(clean());
+        .pipe(rimraf());
 });
 
 gulp.task('lint', function () {

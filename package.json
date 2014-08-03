@@ -15,7 +15,6 @@
     "gulp-webpack": "0.2.x",
     "gulp-jshint": "1.8.x",
     "gulp-uglify": "0.3.x",
-    "gulp-clean": "0.3.x",
     "css-loader": "0.6.x",
     "exports-loader": "^0.6.2",
     "expose-loader": "^0.5.3",
@@ -25,6 +24,7 @@
     "less-loader": "0.7.x",
     "style-loader": "0.6.x",
     "url-loader": "0.5.x",
-    "gulp": "^3.8.7"
+    "gulp": "^3.8.7",
+    "gulp-rimraf": "^0.1.0"
   }
 }
