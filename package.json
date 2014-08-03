@@ -2,14 +2,14 @@
   "name": "tuto-geo-app",
   "version": "0.1.0",
   "author": "Marc Ed Raffalli",
+  "homepage": "https://github.com/chi-mai2b/tuto-geo-app",
   "dependencies": {},
   "engines": {
     "node": ">=0.10.26"
   },
   "scripts": {
-    "test": "gulp test"
+    "build": "gulp"
   },
-  "homepage": "https://github.com/chi-mai2b/tuto-geo-app",
   "devDependencies": {
     "webpack": "1.3.x",
     "gulp-webpack": "0.2.x",
