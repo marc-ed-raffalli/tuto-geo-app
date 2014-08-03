@@ -15,6 +15,7 @@
     "gulp-webpack": "0.2.x",
     "gulp-jshint": "1.8.x",
     "gulp-uglify": "0.3.x",
+    "gulp-clean": "0.3.x",
     "css-loader": "0.6.x",
     "exports-loader": "^0.6.2",
     "expose-loader": "^0.5.3",
