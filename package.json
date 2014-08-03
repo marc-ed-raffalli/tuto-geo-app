@@ -12,7 +12,7 @@
   "homepage": "https://github.com/chi-mai2b/tuto-geo-app",
   "devDependencies": {
     "webpack": "1.3.x",
-    "gulp-webpack": "1.3.x",
+    "gulp-webpack": "0.2.x",
     "gulp-jshint": "1.8.x",
     "gulp-uglify": "0.3.x",
     "css-loader": "0.6.x",
