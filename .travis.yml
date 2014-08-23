@@ -7,6 +7,10 @@ env:
     - secure: cr5j0JFO9FhgdeDcgrZTkiVkoDERPNJs/dfocqOZ67rpUcLmS5j9bAN3AfBvAjIG4ZmoRX8RrNHTwjvIHBm8C9BmCpy58kyJP9uv5ktnOC/gUQ/MvYJL6lS6iiFHUcnqU6YWVKjfJI9noQBTY9noFjuUo9UZju8GC9Vom6YOzFY=
     - secure: HPQNtgIKJroBLEZVyPN7dfPpb7j/z/x1hdUnY3Kasx2bBasl8hucRXvCTd4jQl6LxKHQDKl3db2zpU1ZcMfqG+994PRtXRGhapSUlFQyJrJ7TOhbP3sSkRDnJ6cH+nVVWvBYj2LCAPoDTeoTEUYxaeUu6lbp6I66aSWyTWtvqo8=
 
+branches:
+  only:
+    - master
+
 before_install:
   - npm install -g gulp
 
