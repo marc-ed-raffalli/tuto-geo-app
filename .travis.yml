@@ -4,12 +4,8 @@ node_js:
 
 env:
   global:
-  - secure: H8BsLIEvXDzvveRyWygSd96wTI2FoDXberkghADpIk20xhdpXVxYyDjQrb7dXfPvuOE7Nn/pcuF0aa5ifIubzFZiHQzFWECYluYEYAfw6SIC/D0mgJwzP776ZhEIPZTT9TQMbpk5htcAbPLRjUvt6A2g+sp86aTnVYWXadtEaYo=
-  - secure: H1IN7H9XLOrBLz05SMAVDor7KpiT+GS9ydaY9ncIorHMyanUYhhvJ0h9b+IhJ8aF1aCDD61E/p3Z3X3aykL8xoTy3KV9M3HsNHCKeojWNCyLZ7qNCK5D4RofVrZvty8jxCUISdp3RUAAfcAS/vCYsl/6Ib3DHFtUaYlm4e18Tx8=
-
-#branches:
-#  only:
-#  - master
+    - secure: cr5j0JFO9FhgdeDcgrZTkiVkoDERPNJs/dfocqOZ67rpUcLmS5j9bAN3AfBvAjIG4ZmoRX8RrNHTwjvIHBm8C9BmCpy58kyJP9uv5ktnOC/gUQ/MvYJL6lS6iiFHUcnqU6YWVKjfJI9noQBTY9noFjuUo9UZju8GC9Vom6YOzFY=
+    - secure: HPQNtgIKJroBLEZVyPN7dfPpb7j/z/x1hdUnY3Kasx2bBasl8hucRXvCTd4jQl6LxKHQDKl3db2zpU1ZcMfqG+994PRtXRGhapSUlFQyJrJ7TOhbP3sSkRDnJ6cH+nVVWvBYj2LCAPoDTeoTEUYxaeUu6lbp6I66aSWyTWtvqo8=
 
 before_install:
   - npm install -g gulp
