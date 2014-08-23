@@ -11,7 +11,7 @@ env:
 #  - master
 
 script:
-  - npm build
+  - ./script/build.sh
 
 after_success:
   "ls -al"

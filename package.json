@@ -7,9 +7,6 @@
   "engines": {
     "node": ">=0.10.26"
   },
-  "scripts": {
-    "build": "gulp"
-  },
   "devDependencies": {
     "webpack": "1.3.x",
     "gulp-webpack": "0.2.x",
