@@ -1,12 +1,9 @@
 language: node_js
 node_js:
 - '0.10'
+after_success: -"curl --ftp-create-dirs -T '{./dist/index.html,./dist/geoapp.js}'
+  -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/"
 env:
   global:
-  - secure: CYLBRlPH1xXNi3NTGdgvAi3cLJCFVjw6JYXZWWST/qO68FDCk9Ir7WP0FmOfnF/8WnGHM9hYk+vg6uSfDYtX6j5Nso2B53pIUlounOR8qt08EucjcSWSTuYfwxxfmSs09zS5/5BkOaNFzJF68rSY0+NWjjwEDAUzeMXZj8nallM=
-  - secure: QNw0xe7B9kafA9FsvIN3RL6y8Gx1cBobCCt1kuOmNNNP3y+x1ezstuUDTXAxUPkkHQhqyGbsl5wgYgdNpYW1cIgnvmcn4xMFOyVwy7kqgMATn4jTt9eiizen1x0OFLZ52qwpXt55Dlvq/VF9UZuHLDuk22PuqAsmz041aryX8n0=
-  - secure: J6psGnTMAxDljERrnA/TdxbwHZ8S96yLfbrGUD5e1v2ookATAPYhPsHfX02dzAm0H9FrA694nowQrLS1e3B4VJMSak6O62ACEhNlJ+5OCOBQnlVkMiPaarXUagKG+uqk5+nCsHHUEv13ll4f1GD6uA5YAwIHguDNcDTMFO3vTEY=
-  - secure: bMfHJDns4YQEYxP3cl3YnIC0AYHXjWjsZVbQah8CgqLplUaghF648wDWjsBKLRGMHWHEyyYuq9+msv4HdqI1Vl4S15/rNKrWJv+A6MgH5ZzftNffHLBcBehvOXE0LO90UzwYkeyJ2s0ke9tH+89S81zyEHpRiFehKjsWX1YZgd0=
-  - secure: JBzFNxnJIMBUy17zvr+Pk0aZE+9OJHIjzwPl66KdsWfpJ01voVU+KKmNCp6UbAv1ykQKNrJlVXAkLqu2Y1oVRscgR3Ia3DdiakwBbI4p+7iN7xO8KPgKzPDBdB2GAJ6U7YgSPfNGbrHrnYoI6q1d/T+RBRJqss6ameXhUjeu8oA=
-after_success: -"curl --ftp-create-dirs -T \"{./dist/index.html,./dist/geoapp.js.html}\"
-  -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/"
+  - secure: ZjzJQI8KmNMTC+sFt2p2A2n2TkqY9iPOm4g83TmjJFahQh8ZaTTqalnBetXuZN1xRf7WPtN8zO3SdZ6uLh+EsMjo9JvK8OHeKohBlZE12PR7iISgmUY1bj9ti2KnfI6j1TzsrUI+oaUn4lpON5fmfKVO8VkU2uE2Vkl3jeytZ8M=
+  - secure: ca4+mvDyRax0/ezxPjUu7mZsfkYFbxQaFqvj6i5ydys5hL68yaw+evVvNlbMKwCnR23h4G88arsyk3BPWHrNvAzgW4NANpPe79v2hnJHudwhXO9KoP8f9VL1gH8mTmMfdzbC+AdcYQr8g+BJrMuZ2YGaZ0aSXLCWN3ZYnEsRcBc=
