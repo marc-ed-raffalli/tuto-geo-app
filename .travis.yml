@@ -1,6 +1,10 @@
 language: node_js
 node_js:
 - '0.10'
-before_install:
-- openssl aes-256-cbc -K $encrypted_850b8031e2e7_key -iv $encrypted_850b8031e2e7_iv
-  -in super_secret.txt.enc -out super_secret.txt -d
+env:
+  global:
+  - secure: CYLBRlPH1xXNi3NTGdgvAi3cLJCFVjw6JYXZWWST/qO68FDCk9Ir7WP0FmOfnF/8WnGHM9hYk+vg6uSfDYtX6j5Nso2B53pIUlounOR8qt08EucjcSWSTuYfwxxfmSs09zS5/5BkOaNFzJF68rSY0+NWjjwEDAUzeMXZj8nallM=
+  - secure: QNw0xe7B9kafA9FsvIN3RL6y8Gx1cBobCCt1kuOmNNNP3y+x1ezstuUDTXAxUPkkHQhqyGbsl5wgYgdNpYW1cIgnvmcn4xMFOyVwy7kqgMATn4jTt9eiizen1x0OFLZ52qwpXt55Dlvq/VF9UZuHLDuk22PuqAsmz041aryX8n0=
+after_success:
+    "curl --ftp-create-dirs -T ./dist/index.html -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/app/index.html"
+    "curl --ftp-create-dirs -T ./dist/geoapp.js -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/app/geoapp.js"
