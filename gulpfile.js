@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     webpack = require('gulp-webpack');
 
+
 var bases = {
     app: 'app/geoapp/',
     dist: 'dist/'
@@ -21,15 +22,20 @@ gulp.task('lint', function () {
         .pipe(jshint.reporter('default'));
 });
 
-gulp.task('build', function () {
+gulp.task('build', ['clean'], function () {
     return gulp.src('src/main.js')
         .pipe(webpack(require('./webpack.config.js')))
         .pipe(uglify())
         .pipe(gulp.dest(''));
 });
 
+gulp.task('copy-index', ['clean'], function () {
+    return gulp.src('index.html')
+        .pipe(gulp.dest(bases.dist));
+});
+
 gulp.task('watch', function () {
     gulp.watch(bases.app + '*.js', ['build']);
 });
 
-gulp.task('default', ['clean', 'lint', 'build']);
+gulp.task('default', ['clean', 'copy-index', 'lint', 'build']);
