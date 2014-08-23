@@ -6,4 +6,4 @@ env:
   - secure: H8BsLIEvXDzvveRyWygSd96wTI2FoDXberkghADpIk20xhdpXVxYyDjQrb7dXfPvuOE7Nn/pcuF0aa5ifIubzFZiHQzFWECYluYEYAfw6SIC/D0mgJwzP776ZhEIPZTT9TQMbpk5htcAbPLRjUvt6A2g+sp86aTnVYWXadtEaYo=
   - secure: H1IN7H9XLOrBLz05SMAVDor7KpiT+GS9ydaY9ncIorHMyanUYhhvJ0h9b+IhJ8aF1aCDD61E/p3Z3X3aykL8xoTy3KV9M3HsNHCKeojWNCyLZ7qNCK5D4RofVrZvty8jxCUISdp3RUAAfcAS/vCYsl/6Ib3DHFtUaYlm4e18Tx8=
 after_success: 
-  "find dist -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/ \;"
+  "find dist -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/ \\;"
