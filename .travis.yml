@@ -18,5 +18,4 @@ script:
   - gulp
 
 after_success:
-  "ls -al"
-# "find dist -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/ \\;"
+  "find dist -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://raffalli-marc-ed.com/ \\;"
