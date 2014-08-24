@@ -38,7 +38,7 @@ define([
             this.map = this._mapCtrl.getMap(this.ui.map.get(0));
             this._mapCtrl.addLayerMapTile(this.map);
             this._mapCtrl.addLayerGeoJson(this.map);
-            Backbone.Wreqr.radio.vent.removeHandler('map', 'load');
+            Backbone.Wreqr.radio.vent.off('map', 'load');
         }
     });
 });
