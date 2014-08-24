@@ -7,10 +7,11 @@
 /* global define */
 define([
     'marionette',
+    'backbone',
     'controller/GameController',
     './GeoAppRouter',
     './layout/GeoAppLayout'
-], function (Marionette, GameController, GeoAppRouter, GeoAppLayout) {  // getting Marionette dependency
+], function (Marionette, Backbone, GameController, GeoAppRouter, GeoAppLayout) {  // getting Marionette dependency
     'use strict';
 
     require('./geoapp.less');
@@ -33,7 +34,7 @@ define([
     // https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.application.md#application-event
     geoApp.onStart = function () {
         appRouter.startHistory();
-
+        Backbone.Wreqr.radio.vent.trigger('map', 'load');
     };
 
     // return the application instance without calling start, start is called in the main.js

@@ -1,8 +1,9 @@
 {
   "name": "tuto-geo-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Marc Ed Raffalli",
-  "homepage": "https://github.com/chi-mai2b/tuto-geo-app",
+  "homepage": "http://marc-ed-raffalli.com/app/#geoApp",
+  "repository": "https://github.com/chi-mai2b/tuto-geo-app",
   "dependencies": {},
   "engines": {
     "node": ">=0.10.26"
@@ -22,6 +23,7 @@
     "style-loader": "0.6.x",
     "url-loader": "0.5.x",
     "gulp": "^3.8.7",
-    "gulp-rimraf": "^0.1.0"
+    "gulp-rimraf": "^0.1.0",
+    "gulp-rename": "^1.2.0"
   }
 }

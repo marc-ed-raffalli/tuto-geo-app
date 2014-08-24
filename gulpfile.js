@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
+    jshint = require('gulp-jshint'),
+    rename = require("gulp-rename"),
     rimraf = require('gulp-rimraf'),
     uglify = require('gulp-uglify'),
-    jshint = require('gulp-jshint'),
     webpack = require('gulp-webpack');
 
 
@@ -34,8 +35,16 @@ gulp.task('copy-index', ['clean'], function () {
         .pipe(gulp.dest(bases.dist));
 });
 
+gulp.task('copy-index-prod', ['clean'], function () {
+    return gulp.src('index-prod.html')
+        .pipe(rename('index.html'))
+        .pipe(gulp.dest(bases.dist));
+});
+
 gulp.task('watch', function () {
     gulp.watch(bases.app + '*.js', ['build']);
 });
 
-gulp.task('default', ['clean', 'copy-index', 'lint', 'build']);
+gulp.task('build-dev', ['clean', 'copy-index', 'build']);
+
+gulp.task('default', ['clean', 'copy-index-prod', 'lint', 'build']);

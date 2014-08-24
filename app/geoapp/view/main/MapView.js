@@ -28,15 +28,17 @@ define([
         },
         initialize: function () {
             this._mapCtrl = new MapController();
+            Backbone.Wreqr.radio.vent.on('map', 'load', this.mapLoad, this);
             Backbone.Wreqr.radio.vent.on('map', 'resize', this.mapResize, this);
         },
         mapResize: function () {
             this._mapCtrl.invalidateSize(this.map);
         },
-        onBeforeShow: function () {
+        mapLoad: function () {
             this.map = this._mapCtrl.getMap(this.ui.map.get(0));
             this._mapCtrl.addLayerMapTile(this.map);
             this._mapCtrl.addLayerGeoJson(this.map);
+            Backbone.Wreqr.radio.vent.removeHandler('map', 'load');
         }
     });
 });
